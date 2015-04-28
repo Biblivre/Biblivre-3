@@ -1,0 +1,50 @@
+﻿LEADER BIB    00000xxx a2200000 a 4500
+              00000can a2200000 a 4500
+
+LEADER AUTH   00000xz  a2200000n  4500
+              00000cz  a2200000n  4500
+
+LEADER HOLD   00000xx  a2200000un 4500
+              00000cu  a2200000un 4500
+
+
+Posi��o 5:
+
+	- n (new)
+	- c (corrected)
+
+
+LEADER BIBLIOGR�FICO
+
+Tipo do Material. Posi��es 6 e 7:
+
+Livro			am
+Panfleto		am
+Tese			am
+Peri�dico		as
+Artigo			ab
+manuscrito		tm
+Iconogr�fico		km
+Cartogr�fico		em
+AudioVisual		pm
+Musica (som)		jm
+Partitura		cm
+Leg�vel computador	mm
+3D			rm
+
+
+LEADER HOLDINGS
+
+Posi��o 6 (7, espa�o):
+
+    - u (unkwown)
+	- x (single-part)
+	- v (multi-part)
+	- y (serial)
+
+
+LEADER AUTHORITIES
+
+Posi��o 6 (7, espa�o):
+
+	- z

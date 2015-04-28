@@ -1,0 +1,82 @@
+.noborder {
+    border: 1px dotted #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.autocreated {
+    display: none;
+}
+
+.toggles {
+    float: right;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+.toggles * {
+    vertical-align: middle;
+}
+
+.marc_numbering {
+    font-size: smaller;
+}
+
+.tab_inner_title {
+    margin-top: 5px;
+}
+
+.marc_table {
+    width: 100%;
+}
+
+.marc_table_col1 {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 30%;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.marc_table_col2 {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+
+.import_type {
+    text-align: center;
+}
+
+.automatic_holdings {
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.automatic_holdings table {
+    width: 400px;
+}
+
+.automatic_holdings td {
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.automatic_holdings .dialog_buttons {
+    text-align: center;
+}
+
+.automatic_holdings .dialog_buttons button {
+    margin: 0px 10px 0px 10px;
+    width: 150px;
+}
+
+.subfield_info {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0 10px 10px 10px;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context displayName="Biblivre 3" path="/biblivre3">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" logAbandoned="false" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/biblivre3" password="abracadabra" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:postgresql://127.0.0.1:5432/biblivre3" username="biblivre"/>
+</Context>

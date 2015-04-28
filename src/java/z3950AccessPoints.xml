@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.4.2" class="java.beans.XMLDecoder">
+    <object class="com.k_int.sql.qm_to_sql.QMToSQLInMemoryConfig">
+    <!-- We will need to register attr maps for all the different kinds of entities to be searched -->
+    <!--
+      N.B. Access paths have changed a little. They are still LinkAttr.LinkAttr.LinkAttr.ColAttr
+      However, they now have the ability to have an appended comma serperated list of modifiers.
+      Initially, the only supported modifer is "new" which indicates that when building an SQL query,
+      the join represented by the link must be a new alias rather than reusing an existing one.
+    -->
+
+        <void method="registerDatabaseMap">
+            <object class="java.util.HashMap">
+        <!-- default -->
+                <void method="put">
+                    <string>default</string>
+                    <object class="com.k_int.sql.qm_to_sql.DatabaseMapping">
+                        <string>Records</string>
+                        <string>Records</string>
+                        <string>Records</string>
+                    </object>
+                </void>
+        <!-- All resources -->
+            </object>
+        </void>
+
+        <void method="registerAttrMap">
+            <string>Records</string> <!-- Base entity name for this attr map -->
+            <object class="com.k_int.sql.qm_to_sql.AttrMap">
+                <string>Records</string>
+
+
+        <!-- bib1 busca por autor -->
+                <void method="addMapping">
+                    <string>bib-1.1.1</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>AUTHOR</string>
+                    </object>
+                </void>
+	
+                <void method="addMapping">
+                    <string>bib-1.1.1003</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>AUTHOR</string>
+                    </object>
+                </void>
+
+	
+	<!-- bib1 busca por titulo -->
+                <void method="addMapping">
+                    <string>bib-1.1.4</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>TITLE</string>
+                    </object>
+                </void>
+
+        <!-- bib1 busca por isbn -->
+                <void method="addMapping">
+                    <string>bib-1.1.7</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>ISBN</string>
+                    </object>
+                </void>
+        
+	<!-- bib1 busca por assunto -->
+                <void method="addMapping">
+                    <string>bib-1.1.21</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>SUBJECT</string>
+                    </object>
+                </void>
+
+	<!-- bib1 busca por qualquer um-->
+                <void method="addMapping">
+                    <string>bib-1.1.1016</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>ANY</string>
+                    </object>
+                </void>
+	
+	<!-- bib1 busca por Autor - Titulo - Assunto -->
+                <void method="addMapping">
+                    <string>bib-1.1.1036</string>
+                    <object class="com.k_int.sql.qm_to_sql.SimpleTextMapping">
+                        <string>ANY</string>
+                    </object>
+                </void>
+            </object>
+        </void>
+    </object>
+</java>

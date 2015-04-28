@@ -1,0 +1,48 @@
+html, body {
+    height: auto;
+    overflow: visible;
+}
+
+#header {
+    background: transparent;
+    border: 0px;
+}
+
+#header_overlay, #sponsor_logo, #law_logo, #language_picker, #menu, #footer, #message {
+    display: none;
+}
+
+.tab, .tab_close, .tab_body, .paging {
+    display: none;
+}
+
+.box {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    page-break-inside: avoid;
+}
+
+.box_content_left {
+    width: 100%;
+}
+
+#content {
+    border: 0px;
+}
+
+#content_outer {
+    overflow-x: visible;
+    overflow-y: visible;
+    overflow: visible;
+}
+
+#system_warnings {
+    display: none;
+}
+
+.search_print {
+    display: none !important;
+}

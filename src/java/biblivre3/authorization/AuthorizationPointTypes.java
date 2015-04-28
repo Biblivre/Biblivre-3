@@ -1,0 +1,122 @@
+/**
+ *  Este arquivo é parte do Biblivre3.
+ *  
+ *  Biblivre3 é um software livre; você pode redistribuí-lo e/ou 
+ *  modificá-lo dentro dos termos da Licença Pública Geral GNU como 
+ *  publicada pela Fundação do Software Livre (FSF); na versão 3 da 
+ *  Licença, ou (caso queira) qualquer versão posterior.
+ *  
+ *  Este programa é distribuído na esperança de que possa ser  útil, 
+ *  mas SEM NENHUMA GARANTIA; nem mesmo a garantia implícita de
+ *  MERCANTIBILIDADE OU ADEQUAÇÃO PARA UM FIM PARTICULAR. Veja a
+ *  Licença Pública Geral GNU para maiores detalhes.
+ *  
+ *  Você deve ter recebido uma cópia da Licença Pública Geral GNU junto
+ *  com este programa, Se não, veja em <http://www.gnu.org/licenses/>.
+ * 
+ *  @author Alberto Wagner <alberto@biblivre.org.br>
+ *  @author Danniel Willian <danniel@biblivre.org.br>
+ * 
+ */
+
+package biblivre3.authorization;
+
+public enum AuthorizationPointTypes {
+
+    MENU_LOGIN("AUTH_TYPE_MENU", true),
+    MENU_HELP("AUTH_TYPE_MENU", true),
+    MENU_SEARCH("AUTH_TYPE_MENU", true),
+
+
+    ADMIN_CHANGE_PASSWORD("AUTH_TYPE_ADMIN", true),
+
+    ADMIN_BACKUP("AUTH_TYPE_ADMIN"),
+
+    ADMIN_REINDEX("AUTH_TYPE_ADMIN"),
+
+    ADMIN_USER_TYPE_LIST("AUTH_TYPE_ADMIN"),
+    ADMIN_USER_TYPE_SAVE("AUTH_TYPE_ADMIN"),
+    ADMIN_USER_TYPE_DELETE("AUTH_TYPE_ADMIN"),
+
+    ADMIN_PERMISSIONS("AUTH_TYPE_ADMIN"),
+
+    ADMIN_CONFIG_SAVE("AUTH_TYPE_ADMIN"),
+
+    Z3950_MANAGE_LOCAL_SERVER("AUTH_TYPE_ADMIN"),
+    Z3950_MANAGE_SERVERS("AUTH_TYPE_ADMIN"),
+
+    ACCESS_CARDS_LIST("AUTH_TYPE_ADMIN"),
+    ACCESS_CARDS_SAVE("AUTH_TYPE_ADMIN"),
+    ACCESS_CARDS_BLOCK("AUTH_TYPE_ADMIN"),
+
+    ACQUISITION_SUPPLIER_LIST("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_SUPPLIER_SAVE("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_SUPPLIER_DELETE("AUTH_TYPE_ACQUISITION"),
+
+    ACQUISITION_REQUEST_LIST("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_REQUEST_SAVE("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_REQUEST_DELETE("AUTH_TYPE_ACQUISITION"),
+
+    ACQUISITION_QUOTATION_LIST("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_QUOTATION_SAVE("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_QUOTATION_DELETE("AUTH_TYPE_ACQUISITION"),
+
+    ACQUISITION_ORDER_LIST("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_ORDER_SAVE("AUTH_TYPE_ACQUISITION"),
+    ACQUISITION_ORDER_DELETE("AUTH_TYPE_ACQUISITION"),
+
+    REPORT_CREATE("AUTH_TYPE_REPORTS"),
+
+    CATALOGING_AUTH_LIST("AUTH_TYPE_CATALOGING", true),
+    CATALOGING_AUTH_SAVE("AUTH_TYPE_CATALOGING"),
+    CATALOGING_AUTH_DELETE("AUTH_TYPE_CATALOGING"),
+
+    CATALOGING_BIBLIO_LIST("AUTH_TYPE_CATALOGING", true),
+    CATALOGING_BIBLIO_SAVE("AUTH_TYPE_CATALOGING"),
+    CATALOGING_BIBLIO_MOVE("AUTH_TYPE_CATALOGING"),
+    CATALOGING_BIBLIO_DELETE("AUTH_TYPE_CATALOGING"),
+
+    CATALOGING_HOLDING_LIST("AUTH_TYPE_CATALOGING", true),
+    CATALOGING_HOLDING_SAVE("AUTH_TYPE_CATALOGING"),
+    CATALOGING_HOLDING_DELETE("AUTH_TYPE_CATALOGING"),
+    CATALOGING_HOLDING_PRINT("AUTH_TYPE_CATALOGING"),
+
+    CATALOGING_VOCABULARY_LIST("AUTH_TYPE_CATALOGING", true),
+    CATALOGING_VOCABULARY_SAVE("AUTH_TYPE_CATALOGING"),
+    CATALOGING_VOCABULARY_DELETE("AUTH_TYPE_CATALOGING"),
+
+    CIRCULATION_USER_LIST("AUTH_TYPE_CIRCULATION"),
+    CIRCULATION_USER_SAVE("AUTH_TYPE_CIRCULATION"),
+    CIRCULATION_USER_DELETE("AUTH_TYPE_CIRCULATION"),
+
+    CIRCULATION_USER_CARD("AUTH_TYPE_CIRCULATION"),
+    CIRCULATION_USER_BLOCK("AUTH_TYPE_CIRCULATION"),
+
+    CIRCULATION_CARD("AUTH_TYPE_CIRCULATION"),
+
+    CIRCULATION_LENDING_LIST("AUTH_TYPE_CIRCULATION"),
+    CIRCULATION_LENDING_LEND("AUTH_TYPE_CIRCULATION"),
+
+    CIRCULATION_RESERVATION_LIST("AUTH_TYPE_CIRCULATION"),
+    CIRCULATION_RESERVATION_RESERVE("AUTH_TYPE_CIRCULATION");
+
+    private String group;
+    private boolean alwaysAllowed;
+
+    private AuthorizationPointTypes(String group) {
+        this(group, false);
+    }
+
+    private AuthorizationPointTypes(String group, boolean alwaysAllowed) {
+        this.group = group;
+        this.alwaysAllowed = alwaysAllowed;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public boolean isAlwaysAllowed() {
+        return alwaysAllowed;
+    }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>i18n</short-name>
+  <uri>/WEB-INF/tlds/i18n</uri>
+  <tag>
+    <name>getText</name>
+    <tag-class>mercury.tags.I18nTagHandler</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+      <name>module</name>
+      <required>true</required>
+      <type>java.lang.String</type>
+    </attribute>
+    <attribute>
+      <name>textKey</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.String</type>
+    </attribute>
+  </tag>
+  <tag>
+    <name>setInitialLocale</name>
+    <tag-class>mercury.tags.SetInitialLocale</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+  <tag>
+    <name>loadLocalizedFile</name>
+    <tag-class>mercury.tags.LoadLocalizedFile</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+      <name>filename</name>
+      <required>true</required>
+      <type>java.lang.String</type>
+    </attribute>
+  </tag>
+</taglib>

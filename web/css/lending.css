@@ -1,0 +1,86 @@
+#user_lents {
+    margin-top: 20px;
+    display: none;
+}
+
+#holding_search_results {
+    display: none;
+}
+
+#holding_search_results .lend_button {
+    display: block;
+}
+
+#holding_search_results .lend_renew_button {
+    display: none;
+}
+
+#holding_search_results .lend_return_button {
+    display: none;
+}
+
+#holding_search_results .lent_user_info {
+    margin-bottom: 10px;
+    display: none;
+}
+
+#holding_search_results .reserved_info {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.lent .lend_button {
+    display: none !important;
+}
+
+.lent .lend_renew_button {
+    display: block !important;
+}
+
+.lent .lend_return_button {
+    display: block !important;
+}
+
+.lent .lent_user_info {
+    display: block !important;
+}
+
+.lent .box {
+    border: 1px solid #666508 !important;
+    background: #FFFFD4 !important;
+}
+
+.reserved .reserved_info {
+    display: block !important;
+}
+
+.reserved .box {
+    border: 1px solid #666508 !important;
+    background: #FFFFD4 !important;
+}
+
+
+.fines_form {
+    width: 350px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.fines_form table {
+    width: 350px;
+}
+
+.fines_form td {
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.fines_form .dialog_buttons {
+    text-align: center;
+}
+
+.fines_form .dialog_buttons button {
+    margin: 0px 5px 0px 5px;
+    width: 100px;
+}

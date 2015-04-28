@@ -1,0 +1,73 @@
+.unblock_card {
+    display: none;
+}
+
+.card_status_BLOCKED .block_card {
+    display: none;
+}
+
+.card_status_BLOCKED .unblock_card {
+    display: block;
+}
+
+.card_status_IN_USE_AND_BLOCKED .block_card {
+    display: none;
+}
+
+.card_status_IN_USE_AND_BLOCKED .unblock_card {
+    display: block;
+}
+
+.card_status_IN_USE {
+    background: #FFFFD4;
+}
+
+.card_status_BLOCKED {
+    background: #FFD4D9;
+}
+
+.card_status_IN_USE_AND_BLOCKED {
+    background: #FFD4D9;
+}
+
+
+#card_search_results {
+    display: none;
+}
+
+#card_search_results .lend_button {
+    display: block;
+}
+
+#card_search_results .lend_return_button {
+    display: none;
+}
+
+#card_search_results .lent_user_info {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.card_status_IN_USE .lend_button {
+    display: none !important;
+}
+
+.card_status_IN_USE .lend_return_button {
+    display: block !important;
+}
+
+.card_status_IN_USE .lent_user_info {
+    display: block !important;
+}
+
+.card_status_IN_USE_AND_BLOCKED .lend_button {
+    display: none !important;
+}
+
+.user_has_card_false .lend_return_button {
+    display: none;
+}
+
+.user_has_card_true {
+    background: #FFFFD4;
+}

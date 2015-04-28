@@ -1,0 +1,5 @@
+Iniciar > Programs > PostgreSQL > Comand Prompt
+pg_dump -b -d -U biblivre -f "C:\sfg\dr\drj\meunomebackup.sql" biblivre3
+
+Para restaurar: Apagar a base antiga e executar
+psql -U biblivre -f "C:\sfg\dr\drj\meunomebackup.sql" biblivre3

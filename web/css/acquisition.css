@@ -1,0 +1,38 @@
+.noborder {
+    border: 1px dotted transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.autocreated {
+    display: none;
+}
+
+.toggles {
+    float: right;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+.toggles * {
+    vertical-align: middle;
+}
+
+.tab_inner_title {
+    margin-top: 5px;
+}
+
+.requisition_table {
+    border-collapse: collapse;
+    margin: 15px 0px 10px 0px;
+}
+
+.requisition_table td, .requisition_table th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.requisition_table td {
+    text-align: center;
+    padding: 4px;
+}

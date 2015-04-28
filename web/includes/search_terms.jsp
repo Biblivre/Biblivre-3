@@ -1,0 +1,9 @@
+<option value="AUTHOR"><i18n:getText module="biblivre3" textKey="VALUE_AUTHOR" /></option>
+<option value="TITLE"><i18n:getText module="biblivre3" textKey="VALUE_TITLE" /></option>
+<option value="SUBJECT"><i18n:getText module="biblivre3" textKey="VALUE_SUBJECT" /></option>
+<option value="ISBN"><i18n:getText module="biblivre3" textKey="VALUE_ISBN" /></option>
+<option value="YEAR"><i18n:getText module="biblivre3" textKey="VALUE_PUBLISH_YEAR" /></option>
+<option value="ANY"><i18n:getText module="biblivre3" textKey="VALUE_ANY_ABOVE" /></option>
+<option value="SERIAL"><i18n:getText module="biblivre3" textKey="VALUE_SERIAL_NUMBER" /></option>
+<option value="HOLDING"><i18n:getText module="biblivre3" textKey="VALUE_ASSET_HOLDING" /></option>
+<option value="BAR_CODE"><i18n:getText module="biblivre3" textKey="VALUE_BAR_CODE" /></option>

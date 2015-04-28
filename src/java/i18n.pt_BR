@@ -1,0 +1,1710 @@
+################################################################################
+### REGRAS PARA INTERNACIONALIZAÇÃO DO BIBLIVRE 3                            ###
+### Botôes devem ter a chave começada por BUTTON_                            ###
+### Títulos (h1, h2, h3) devem começcar por TITLE_                           ###
+### Textos soltos na página devem começcar por LABEL_                        ###
+### Textos que aparecem dentro de elementos de form começam por VALUE_       ###
+### Mensagens avisando o usuário que faltou algum preenchimento              ###
+### ou outras mensagens começam por MESSAGE_                                 ###
+### Mensagens de ações executadas com sucesso começam com SUCCESS_           ###
+### Mensagens de ações executadas com erro começam com ERROR_                ###
+###                                                                          ###
+### NÃO REAPROVEITAR UMA TRADUÇÃO DE OUTRO TIPO!!! Exemplo: LABEL em botão   ###
+###                                                                          ###
+################################################################################
+
+# DATE INTERNATIONALIZATION
+DEFAULT_DATE_FORMAT=dd/MM/yyyy
+DEFAULT_DATE_SCREEN=DD/MM/AAAA
+DEFAULT_DATETIME_FORMAT=dd/MM/yyyy HH:mm
+DEFAULT_DATETIME_SCREEN=DD/MM/AAAA hh:mm
+
+# HEADER
+LABEL_FREE_SOFTWARE=Software livre
+LABEL_SUPPORTED_BY=apoiado pelo
+
+LABEL_SOFTWARE_SPONSOR=Itaú
+LABEL_LAW=Lei de Incentivo à Cultura
+
+LABEL_USERNAME=Login
+LABEL_PASSWORD=Senha
+LABEL_LOGIN=Entrar
+LABEL_LOGOUT=Sair
+
+SYSTEM_WARNING_PASSWORD=Você ainda não mudou a senha padrão de administrador
+SYSTEM_WARNING_BACKUP=Você está a mais de 7 dias sem gerar uma cópia de segurança da base
+SYSTEM_WARNING_RESOLVE=Para resolver
+LABEL_CLICK_HERE=clique aqui
+
+# MENU
+MENU_SEARCH=Busca
+MENU_BIBLIO_SEARCH=Bibliográfica
+MENU_AUTH_SEARCH=Autoridades
+MENU_THESAURUS_SEARCH=Vocabulário
+MENU_Z3950_SEARCH=Distribuída
+
+MENU_CIRCULATION=Circulação
+MENU_REGISTER=Cadastro
+MENU_LOGINS=Logins
+MENU_LENDING=Empréstimo
+MENU_RESERVATION=Reserva
+MENU_ACCESS=Acesso
+
+MENU_CATALOGING=Catalogação
+MENU_BIBLIO_CATALOGING=Bibliográfica
+MENU_AUTH_CATALOGING=Autoridades
+MENU_THESAURUS_CATALOGING=Vocabulário
+MENU_IMPORT=Importação
+MENU_LABELS=Etiquetas
+
+MENU_ACQUISITION=Aquisição
+MENU_SUPPLIER=Fornecedor
+MENU_REQUISITION=Requisição
+MENU_QUOTATION=Cotação
+MENU_ORDER=Pedido
+
+MENU_ADMINISTRATION=Administração
+MENU_MAINTENANCE=Manutenção
+MENU_PASSWORD=Troca de Senha
+MENU_REPORTS=Relatórios
+MENU_USER_TYPES_ADMIN=Tipos de Usuário
+MENU_ACCESSCARDS=Cartões
+MENU_CONFIGURATION=Configuração
+MENU_Z3950SERVER=Servidor Z39.50
+
+MENU_HELP=Ajuda
+MENU_ABOUT=Sobre
+MENU_FAQ=Perguntas frequentes
+
+DIALOG_BIBLIO_SEARCH=Busca Bibliográfica
+DIALOG_AUTH_SEARCH=Busca de Autoridades
+DIALOG_THESAURUS_SEARCH=Busca de Vocabulário
+DIALOG_Z3950_SEARCH=Busca Distribuída
+
+DIALOG_REGISTER=Cadastro de Usuários
+DIALOG_LOGINS=Cadastro de Logins de Acesso
+DIALOG_LENDING=Controle de Empréstimos
+DIALOG_RESERVATION=Controle de Reserva
+DIALOG_ACCESS=Controle de Acesso
+
+DIALOG_BIBLIO_CATALOGING=Catalogação Bibliográfica
+DIALOG_AUTH_CATALOGING=Catalogação de Autoridades
+DIALOG_THESAURUS_CATALOGING=Catalogação de Vocabulário
+DIALOG_IMPORT=Importar Registros
+DIALOG_LABELS=Impressão de Etiquetas
+
+DIALOG_SUPPLIER=Cadastro de Fornecedores
+DIALOG_REQUISITION=Cadastro de Requisições
+DIALOG_QUOTATION=Cadastro de Cotações
+DIALOG_ORDER=Cadastro de Pedidos
+DIALOG_MAINTENANCE=Manutenção do Sistema
+DIALOG_PASSWORD=Troca de Senha
+DIALOG_REPORTS=Relatórios
+DIALOG_USER_TYPES_ADMIN=Configuração de Tipos de Usuário
+DIALOG_ACCESSCARDS=Gerência de Cartões
+DIALOG_CONFIGURATION=Configurações
+DIALOG_Z3950SERVER=Servidor Z39.50
+
+DIALOG_ABOUT=Sobre o Biblivre
+DIALOG_WELCOME_MESSAGE=Bem-vindo
+DIALOG_GOODBYE_MESSAGE=Até logo
+DIALOG_VOID=&#160;
+
+#TABS
+TAB_ACCESSADMIN_SEARCH=Buscar Cartões
+TAB_ACCESSADMIN_ADD_CARDS=Adicionar Cartões
+
+TAB_BIBLIO_FICHA=Ficha
+TAB_BIBLIO_SEARCH=Busca
+TAB_BIBLIO_RECORD=Registro
+TAB_BIBLIO_FORM=Formulário
+TAB_BIBLIO_MARC=MARC
+
+TAB_CIRCULATION_FICHA=Ficha
+TAB_CIRCULATION_HISTORY=Histórico e Multas
+TAB_CIRCULATION_LOGIN=Login
+TAB_CIRCULATION_SEARCH=Busca
+
+TAB_ACQUISITION_FORM=Formulário
+TAB_ACQUISITION_SEARCH=Busca
+
+TAB_GROUPS_PERMISSIONS=Permissões de Grupos
+TAB_GROUP_ADMIN_PERMISSIONS=Gerenciamento de Grupos
+TAB_USERS_PERMISSIONS=Permissões de Usuários
+TAB_USER_GROUPS_PERMISSIONS=Grupos e Usuários
+
+#BUTTONS
+BUTTON_ACTIVATE=Ativar
+BUTTON_ADD=Adicionar
+BUTTON_ALTER=Alterar
+BUTTON_BLOCK=Bloquear
+BUTTON_BLOCK_USER=Bloquear
+BUTTON_CANCEL=Cancelar
+BUTTON_CANCEL_CHANGES=Cancelar mudanças
+BUTTON_CLEAR=Limpar
+BUTTON_CLEAR_EXPORT_LIST=Limpar lista
+BUTTON_CREATE_BACKUP=Gerar cópia completa
+BUTTON_CREATE_HOLDING=Criar exemplar
+BUTTON_CREATE_USER_CARD=Gerar Carteirinha
+BUTTON_DELETE=Excluir
+BUTTON_DISABLE=Desativar
+BUTTON_EXIT_WITHOUT_CARD=Sair sem Cartão
+BUTTON_EXPORT=Exportar
+BUTTON_EXPORT_ALL=Exportar registros desta página
+BUTTON_FINE_ACCREDIT=Abonar
+BUTTON_FINE_CREATE=Multar
+BUTTON_FINE_PAY=Pagar
+BUTTON_GENERATE_LABEL=Gerar etiqueta
+BUTTON_LEND=Emprestar
+BUTTON_LIST_ALL=Listar Todos
+BUTTON_LOGIN_DELETE=Remover login
+BUTTON_MOVE_ALL_RECORDS=Mover Todos
+BUTTON_MOVE_RECORDS=Mover Registros
+BUTTON_MOVE_SELECTED_RECORDS=Mover Selecionados
+BUTTON_NEW=Novo
+BUTTON_NEW_HOLDING=Novo exemplar
+BUTTON_NEW_USER=Novo cadastro
+BUTTON_NEXT=Próximo &gt;
+BUTTON_PREVIOUS=&lt; Anterior
+BUTTON_PRINT=Imprimir
+BUTTON_PRINT_PDF=Imprimir em arquivo pdf
+BUTTON_PRINT_RECEIPT=Imprimir Recibo
+BUTTON_RECORD_FILE=Gravar em arquivo texto
+BUTTON_REINDEX_BASE_BIBLIO=Base Bibliográfica
+BUTTON_REMOVE=Remover
+BUTTON_RENEW=Renovar
+BUTTON_REPEAT=Repetir
+BUTTON_REPORT=Emitir relatório
+BUTTON_RETURN_BACK=Devolver
+BUTTON_SAVE=Salvar
+BUTTON_SAVE_AS=Salvar como novo
+BUTTON_SAVE_CHANGES=Salvar mudanças
+BUTTON_SEARCH=Buscar
+BUTTON_SELECT_OTHER_READER=Selecionar outro leitor
+BUTTON_SELECT_PICTURE=Selecionar foto
+BUTTON_SEND_FILE=Enviar arquivo
+BUTTON_UNBLOCK=Desbloquear
+BUTTON_UNBLOCK_USER=Desbloquear
+
+#ERRORS
+ERROR_ACCESS_DENIED=Acesso negado
+ERROR_BACKUP_DATABASE=Cópia de segurança NÃO realizada
+ERROR_BIBLIO_DAO_EXCEPTION=Erro no acesso ao Banco de Dados
+ERROR_BLANK_NAME=O nome do usuário é obrigatório
+ERROR_BLOCK_USER=Falha ao bloquear o usuário
+ERROR_CARD_LEND=Falha ao realizar a operação
+ERROR_CREATE_LOGIN=Erro ao tentar criar novo login
+ERROR_CREATE_PDF=Não foi possível criar arquivo pdf
+ERROR_CREATE_RECORD=Falha na criação do registro
+ERROR_CREATE_TXT=Não foi possível criar arquivo de texto
+ERROR_CREATE_USER_CARD=Erro ao adicionar carteirinha à lista de impressão
+ERROR_DATABASE=Erro ao conectar no Banco de Dados
+ERROR_DELETE_LABEL=Não foi possível remover etiqueta(s)
+ERROR_EMPTY_LOGIN=O campo login é obrigatório
+ERROR_FIELDS_NOT_FILLED=Preencha todos os campos do formulário
+ERROR_INVALID_DATE=Data de aniversário inválida
+ERROR_INVALID_NUMBER=Número inválido
+ERROR_INVALID_USER=Usuário inválido
+ERROR_LEND=Não foi possível realizar o empréstimo
+ERROR_LEND_CARD=Erro ao vincular cartão
+ERROR_LOGIN_ALREADY_EXISTS=Este login já existe em outro usuário
+ERROR_MARC_NOT_FILLED=Preencha o campo MARC
+ERROR_MARC_SWITCH=Erro ao converter registro. Confira o preenchimento
+ERROR_MEDIA_SERVER_CONNECTION_REFUSED=O servidor de mídia digital não está disponível
+ERROR_MEDIA_SERVER_NOT_FOUND=O servidor de mídia digital não foi encontrado
+ERROR_MOVE_ALL_RECORDS=A movimentação de todos os registros falhou
+ERROR_MOVE_SELECTED_RECORDS=A movimentação dos registros selecionados falhou
+ERROR_MUST_SELECT_LABEL=Você deve selecionar ao menos uma etiqueta para impressão
+ERROR_NO_PERMISSION=Você não tem permissão para realizar esta ação
+ERROR_PASSWORDS_ARENT_EQUAL=Os campos com a nova senha não possuem o mesmo conteúdo
+ERROR_PASSWORDS_DONT_MATCH=As senhas não conferem
+ERROR_PAY_FINE=Falha ao pagar / abonar a multa
+ERROR_RECORD_NOT_FOUND=Registro não encontrado
+ERROR_REMOVE_RECORD=Falha na exclusão do registro
+ERROR_REMOVE_USER_TYPE=Não foi possível excluir o tipo de usuário selecionado
+ERROR_RENEW=Não foi possível realizar a renovação
+ERROR_REPORTS_NOT_IMPLEMENTED=Relatório não implementado
+ERROR_REPORT_DAO_EXCEPTION=Erro no acesso ao Banco de Dados
+ERROR_RETURN=Não foi possível realizar a devolução
+ERROR_RETURN_CARD=Erro ao devolver cartão
+ERROR_SAVE_CONFIGURATIONS=Erro ao salvar configurações
+ERROR_SAVE_PERMISSIONS=Não foi possível salvar as permissões
+ERROR_SAVE_USER=Erro ao salvar usuário
+ERROR_UNBLOCK_USER=Falha ao desbloquear o usuário
+ERROR_UPDATE_RECORD=Falha na atualização do registro
+ERROR_USER_ALREADY_HAVE_LOGIN_NAME=Este usuário já possui um login
+ERROR_USER_DONT_HAVE_LOGIN=Este usuário não possui um login
+ERROR_USER_TYPE_BLANK_NAME=O nome do tipo de usuário é obrigatório
+ERROR_WRONG_PASSWORD=A senha atual não confere
+SUCCESS_ADD_USER=Usuário cadastrado
+SUCCESS_BACKUP_DATABASE=Cópia de segurança realizada com sucesso
+SUCCESS_BLOCK_USER=Usuário bloqueado com sucesso
+SUCCESS_CHANGE_PASSWORD=Senha foi alterada com sucesso
+SUCCESS_CREATE_LOGIN=Login criado com sucesso
+SUCCESS_CREATE_PDF=Arquivo pdf criado com sucesso
+SUCCESS_CREATE_RECORD=Registro criado com sucesso
+SUCCESS_CREATE_RECORD_WORK_DATABASE=Registro adicionado à base de trabalho
+SUCCESS_CREATE_TXT=Arquivo de texto criado com sucesso
+SUCCESS_CREATE_USER_CARD=Carteirinha adicionada à lista de impressão
+SUCCESS_DELETE_LABEL=Etiqueta(s) excluída(s) com sucesso
+SUCCESS_LEND=Empréstimo realizado com sucesso
+SUCCESS_LEND_CARD=Cartão vinculado com sucesso
+SUCCESS_MOVE_ALL_RECORDS=Todos os registros foram movidos com sucesso
+SUCCESS_MOVE_SELECTED_RECORDS=Os registros selecionados foram movidos com sucesso
+SUCCESS_PASSWORD_CHANGED=Senha alterada com sucesso
+SUCCESS_PAY_FINE=Multa paga / abonada com sucesso
+SUCCESS_REMOVE_LOGIN=Login removido com sucesso
+SUCCESS_REMOVE_RECORD=Registro excluído com sucesso
+SUCCESS_REMOVE_USER=Usuário excluído com sucesso
+SUCCESS_REMOVE_USER_TYPE=O tipo de usuário selecionado foi excluído com sucesso
+SUCCESS_RENEW=Renovação realizada com sucesso
+SUCCESS_RETURN=Devolução realizada com sucesso
+SUCCESS_RETURN_CARD=Cartão devolvido com sucesso
+SUCCESS_SAVE_CONFIGURATIONS=As configurações foram salvas com sucesso
+SUCCESS_SAVE_USER_TYPE=Tipo de usuário salvo com sucesso
+SUCCESS_UNBLOCK_USER=Usuário desbloqueado com sucesso
+SUCCESS_UPDATE_RECORD=Registro atualizado com sucesso
+SUCCESS_UPDATE_USER=Usuário alterado com sucesso
+
+#LABELS
+LABEL_ACTIVE=Ativo
+LABEL_ADDRESS=Endereço
+LABEL_ADMINISTRATION_CARD1=Para cadastrar todos os cartões de BIB001A até BIB030A,
+LABEL_ADMINISTRATION_CARD2=coloque 'BIB' no campo 'PREFIXO', 'A' no campo 'SUFFIXO', '001'
+LABEL_ADMINISTRATION_CARD3=no campo 'Número inicial' e '030' no campo 'Número final'.
+LABEL_ALLOW=Permitir
+LABEL_AMOUNT_HOLDING=Quantidade de exemplares
+LABEL_AMOUNT_RECEIVED=Quantidade Recebida
+LABEL_APPLICANT=Requerente
+LABEL_ASSET_HOLDING=Tombo Patrimonial
+LABEL_AUTHOR=Autor
+LABEL_AUTHOR_NUMERATION=Numeração que segue o prenome
+LABEL_AUTHOR_TITLE=Título e outras palavras associadas ao nome
+LABEL_AUTOMATIC_HOLDING=Exemplar Automático
+LABEL_AUTOMATIC_HOLDING=Exemplares automáticos
+LABEL_AVAILABILITY=Disponibilidade
+LABEL_AVAILABLE=Disponível
+LABEL_AVAILABLE_COUNT=Disponíveis
+LABEL_AVAILABLE_HOLDING=Criar exemplares agora
+LABEL_BACKGROUND_COLOR=Cor primária da página e de botões
+LABEL_BACKGROUND_LIGHT_COLOR=Cor secundária da página e de botões
+LABEL_BACKUP=Cópia de segurança
+LABEL_BIBLIO_DATABASE=Base Bibliográfica
+LABEL_BIRTHDAY=Data de Nascimento
+LABEL_BLOCKED=Suspenso
+LABEL_BORDER_AND_TEXT_COLOR=Cor primária de bordas e textos
+LABEL_CARD_NUMBER=Número do cartão
+LABEL_CEL_PHONE=Celular
+LABEL_CITY=Cidade
+LABEL_COLLECTION=Coleção
+LABEL_COMPANY_NAME=Razão Social
+LABEL_COMPANY_NUMBER=CNPJ
+LABEL_COMPLEMENT=Complemento
+LABEL_CONFIGURATION=Configurações
+LABEL_COUNTRY=País
+LABEL_CREATION_DATE=Data de cadastro
+LABEL_CURRENT_VALUE=Valor atual
+LABEL_DATABASE_SWITCH_WARNING=Só é possível trocar de base durante a busca ou criação de um novo registro
+LABEL_DATE=Data
+LABEL_DATE_ARRIVAL_QUOTATION=Data de Chegada da Cotação
+LABEL_DATE_CASH=Data do recebimento
+LABEL_DATE_END=Data Final
+LABEL_DATE_EXPIRATION_QUOTATION=Data da Validade da Cotação
+LABEL_DATE_FINALE=Data do Vencimento
+LABEL_DATE_ORDER_QUOTATION=Data do Pedido de Cotação
+LABEL_DATE_RECEIPT=Data do recebimento
+LABEL_DATE_REGISTRATION=Data do Cadastro
+LABEL_DATE_REQUISITION=Data de Requisição
+LABEL_DATE_START=Data Inicial
+LABEL_DATE_TUMBLING=Data de aquisição
+LABEL_DELIVERY=Recebimento
+LABEL_DELIVERY_TIME=Prazo de entrega (Prometido)
+LABEL_DELIVERY_TIME_DATE=Dias para devolução
+LABEL_DEPOSITORY_LIBRARY=Biblioteca depositária
+LABEL_DIGITAL_MEDIA=Mídia Digital
+LABEL_DLICENSE=Identidade
+LABEL_DOLAR=$ (Cifrão)
+LABEL_DONATE=Doação
+LABEL_EMAIL=Email
+LABEL_ENROL=Matrícula
+LABEL_FIELD_SEPARATOR=Separador
+LABEL_FINE_AMOUNT=Valor da multa
+LABEL_FINE_DAYS_LATE=Dias de atraso
+LABEL_FINE_PAYMENT_DATE=Data do pagamento
+LABEL_FINE_PRICE_PER_DAY=Multa diária
+LABEL_FINE_TOTAL_VALUE=Multa total
+LABEL_FINE_VALUE=Valor da multa
+LABEL_FORBID=Proibir
+LABEL_FORM_PAYMENT=Forma de Pagamento
+LABEL_GENERAL_DATA=Dados Gerais
+LABEL_HEADER_BACKGROUND_COLOR=Cor de fundo do cabeçalho
+LABEL_HOLDING_NUMBER=Número do exemplar
+LABEL_HOLDING_SERIAL=Serial do Exemplar
+LABEL_HOW_TO_REMOVE_FILES=Para remover um arquivo, use a aba MARC e remova o campo 856
+LABEL_INACTIVE=Inativo
+LABEL_INVOICE_NUMBER=Número da Nota Fiscal
+LABEL_ISBN=ISBN
+LABEL_IS_LENT=Emprestado
+LABEL_IS_NOT_LENT=Não emprestado
+LABEL_ITEMS=Itens
+LABEL_LABEL_CATALOGING=Selecione a base bibliográfica para a impressão das etiquetas
+LABEL_LABEL_CATALOGING2=Selecione o período para impressão das etiquetas
+LABEL_LABEL_CATALOGING_BASE_RECORD=Base bibliográfica
+LABEL_LAST_UPDATE=Última atualização
+LABEL_LEND_DATE=Data do empréstimo
+LABEL_LENT_COUNT=Emprestados
+LABEL_LENT_FOR=Emprestado para
+LABEL_LENT_STATE=Estado
+LABEL_LIBRARY_NAME=Nome da biblioteca
+LABEL_LIBRARY_SUBNAME=Subtítulo da biblioteca
+LABEL_LOC_A=Classificação
+LABEL_LOC_AB=Classif.
+LABEL_LOC_B=Código autor
+LABEL_LOC_BB=Cód.autor
+LABEL_LOC_C=Edição/Volume
+LABEL_LOC_CB=Ed./Vol.
+LABEL_LOGIN=Entrar
+LABEL_MAINTENANCE_REPORTS1=Base Bibliográfica
+LABEL_MAINTENANCE_REPORTS2=Selecione um Relatório
+LABEL_MAIN_BASE=Base Principal
+LABEL_MAIN_MAINTENANCE=Principal -&gt; Trabalho
+LABEL_MATERIAL=Material
+LABEL_MATERIAL_INFORMATION=Dados da Obra
+LABEL_MAX_ITEM_COUNT=Limite de empréstimos simultâneos
+LABEL_MONEY_LOCALE=Moeda corrente
+LABEL_MOVE_RECORDS=Movimentação de Registros
+LABEL_NAME=Nome
+LABEL_NEIGHBORHOOD=Bairro
+LABEL_NEW_DESCRIPTION=Descrição
+LABEL_NEW_FILE_DESCRIPTION=Descrição do novo arquivo
+LABEL_NEW_PASSWORD=Nova senha
+LABEL_NEW_TYPE=Nome
+LABEL_NEW_VALUE=Novo Valor
+LABEL_NO_CURRENT_FINES=Nenhuma multa pendente
+LABEL_NO_CURRENT_LENDINGS=Nenhum empréstimo pendente
+LABEL_NO_PAST_FINES=Nenhuma multa passada
+LABEL_NO_PAST_LENDINGS=Nenhum empréstimos passado
+LABEL_NO_SELECTED_READER=Nenhum leitor selecionado
+LABEL_NUMBER=Número
+LABEL_NUMBER_EDITION=Número da edição
+LABEL_NUMBER_END=Número final
+LABEL_NUMBER_HOLDINGS=Nº de exemplares
+LABEL_NUMBER_REQUISITION=Número da Requisição
+LABEL_NUMBER_START=Número inicial
+LABEL_NUMBER_VOLUME=Nº do volume
+LABEL_NUMBER_VOLUME_WORK=Nº de volumes da obra
+LABEL_OBSERVATION=Observações
+LABEL_ORDER_BY=Ordena por
+LABEL_ORDER_DATE=Data do Pedido
+LABEL_OTHER=Outros
+LABEL_PENDING=Possui pendências
+LABEL_PETITIONER=Requerente
+LABEL_PIPE=| (Barra)
+LABEL_PORT=Porta
+LABEL_PREFIX=Prefixo
+LABEL_PRE_VISUALIZATION=Pré visualização
+LABEL_PRINTING_LABEL_SELECT=Selecione em qual etiqueta deseja iniciar a impressão
+LABEL_PRINTING_LABEL_FORMAT=Formato das etiquetas
+LABEL_PUBLISHER=Editora
+LABEL_PURCHASE=Compra
+LABEL_QUANTITY=Quantidade
+LABEL_QUOTATION_NUMBER=Número da cotação
+LABEL_QUOTATION=Cotação
+LABEL_ORDER=Pedido
+LABEL_RADIO_ATTENDED=Atendidas
+LABEL_RADIO_BOTH=Ambas
+LABEL_RADIO_COMPLETED=Concluídos
+LABEL_RADIO_OPEN=Pendentes
+LABEL_REAIS=(em Reais)
+LABEL_RECORDS_PER_PAGE=Registros por Página
+LABEL_RECORD_SERIAL=Serial do Registro Bibliográfico
+LABEL_REGISTER_CARDS=Cadastrar Novo Cartão
+LABEL_REGISTER_CARDS_SEQUENCE=Cadastrar Sequência de Cartões
+LABEL_REINDEX_BASE=Reindexar Bases
+LABEL_REPEAT_PASSWORD=Repetir senha
+LABEL_REQUISITION=Requisição
+LABEL_REQUISITION_NUMBER=Número da requisição
+LABEL_RESERVATION_DAYS=Dias de reserva
+LABEL_RESERVATION_TYPE=Tipo de reserva
+LABEL_RESERVED_COUNT=Reservas
+LABEL_RESPONSIBLE=Responsável
+LABEL_RETURN_DATE=Data da devolução
+LABEL_RETURN_HAS_FINES=Esta devolução está atrasada
+LABEL_SEARCH_CONTAINING_TERM=Contendo o texto
+LABEL_SEARCH_ON_ATTRIBUTE=no atributo
+LABEL_SELECT=Selecione...
+LABEL_SELECT_MOVE_DIRECTION=Selecione o sentido da movimentação (origem-destino)
+LABEL_SELECT_QUOTATION=Selecione uma Cotação
+LABEL_SELECT_REQUISITION=Selecione uma Requisição
+LABEL_SELECT_SUPPLIER=Selecione um Fornecedor
+LABEL_SERIAL=Serial
+LABEL_SERVER_Z3950_STATE=Estado atual do servidor
+LABEL_SHOW_MARC_TAG_NUMBERS=Exibir numeração Marc
+LABEL_SITUATION=Situação
+LABEL_SOCIAL_ID_NUMBER=CPF
+LABEL_STATE=Estado
+LABEL_SUFFIX=Sufixo
+LABEL_SUPPLIER=Fornecedor
+LABEL_TARGET_RETURN_DATE=Data limite para devolução
+LABEL_TELEPHONE=Telefone
+LABEL_TELEPHONE_COMERCIAL=Telefone Comercial
+LABEL_TELEPHONE_CONTACT=Telefones/Contatos
+LABEL_TELEPHONE_EXTENSION_LINE=Ramal
+LABEL_TERM_TE=Termo TE
+LABEL_TERM_TG=Termo TG
+LABEL_TERM_UP=Termo UP
+LABEL_TERM_VT_TA_TR=Termo VT/TA/TR
+LABEL_TITLE=Título
+LABEL_TITLE_MAIN_TITLE=Título Principal
+LABEL_TITLE_OTHER_TITLES_SUBTITLES=Títulos Paralelos/subtítulos
+LABEL_TOTAL_MAIN_REC=Total de registros na Base bibliográfica principal
+LABEL_TOTAL_RECORDS=Total de Registros
+LABEL_TOTAL_VALUE=Valor Total
+LABEL_TOTAL_WORK_REC=Total de registros na Base de trabalho
+LABEL_TRADING_NAME=Nome Fantasia
+LABEL_TYPE_ACQUISITION=Tipo de aquisição
+LABEL_TYPE_AUTHOR=Tipo de Autor
+LABEL_UNAVAILABLE=Indisponível
+LABEL_UNAVAILABLE_COUNT=Indisponíveis
+LABEL_UNIT_VALUE=Valor unitário
+LABEL_URL=URL
+LABEL_USER_SERIAL=Matrícula
+LABEL_USER_TYPE=Tipo de usuário
+LABEL_USER_TYPE_DESCRIPTION=Descrição
+LABEL_VALUES=Valores
+LABEL_VAT_REGISTRATION_NUMBER=Inscrição Estadual
+LABEL_WORK=Trabalho
+LABEL_WORK_BASE=Base de Trabalho
+LABEL_WORK_MAINTENANCE=Trabalho -&gt; Principal
+LABEL_YEAR=Ano
+LABEL_ZIP_CODE=CEP
+LABEL_NO_FILES_FOR_THIS_BIBLIO_RECORD=Este registro bibliográfico não possui arquivos anexos
+
+
+LOGGED_DISCLAIMER_1=Olá
+LOGGED_DISCLAIMER_2=<p>Seja bem-vindo ao <b>Sistema <i>Biblivre</i></b>.</p>
+NOT_LOGGED_DISCLAIMER=<p>O <b><i>BIBLIVRE 3</i></b> é a terceira versão de um conjunto de programas baseados na WEB e escritos em JAVA, desenvolvidos pelo projeto <a href="http://www.biblivre.org.br/">Biblioteca Livre Internacional</a> <span class="about">[veja "Sobre", em "Ajuda"]</span></p> <p>Se desejar somente pesquisar o catálogo e acessar as obras disponíveis digitalmente (<i>on-line</i>), utilize a opção "Busca" sem a necessidade de login e senha.</p> <p>Para outros serviços, tais como catalogação, administração, etc, é necessário um nome de <b>Usuário</b> e <b>Senha</b>.</p>
+
+#MESSAGES
+MESSAGE_CANT_BLOCK_ADMIN=Não é permitido bloquear o usuário Administrador
+MESSAGE_CANT_REMOVE_ADMIN=Não e permitido excluir o usuário Administrador
+MESSAGE_CARD_ALREADY_EXISTS=Este cartão já está cadastrado no sistema
+MESSAGE_CARD_ALREADY_LENT=Este cartão está em uso
+MESSAGE_DELETE_BIBLIO_ERROR=Não é possível excluir este registro pois seus exemplares já foram emprestados
+MESSAGE_DELETE_HOLDING_ERROR=Não é possível excluir este exemplar pois ele já foi emprestado. Altere sua disponibilidade para Indisponível
+MESSAGE_EMPTY_CARD_NUMBER=Preencha o número do cartão
+MESSAGE_EMPTY_LABEL_LIST=Não há etiquetas na lista de impressão
+MESSAGE_EMPTY_START_END_NUMBERS=Preencha os números inicial e final com valores numéricos
+MESSAGE_ERROR_ADD_REQUEST=Adicione uma Requisição
+MESSAGE_ERROR_CREATE_SUPPLIER=Preencha ao menos a Razão Social ou o Nome do Fornecedor
+MESSAGE_ERROR_DEADLINE_DATE=Preencha a Data de Vencimento
+MESSAGE_ERROR_INVALID_DATES=O período informado é inválido
+MESSAGE_ERROR_ORDER_DATE=Preencha a Data do Pedido
+MESSAGE_ERROR_SELECT_CARD=Selecione um cartão
+MESSAGE_ERROR_SELECT_RESERVE=Selecione a reserva
+MESSAGE_ERROR_SELECT_SUPPLIER=Escolha um Fornecedor
+MESSAGE_ERROR_SELECT_USER=Selecione um usuário
+MESSAGE_ERROR_SELECT_USER_CARD=Falha ao selecionar o usuário ou o cartão
+MESSAGE_FOUND_NONE=Nenhum registro encontrado
+MESSAGE_HOLDING_ALREADY_LENT=Este exemplar já está emprestado
+MESSAGE_HOLDING_NOT_LENT=Este exemplar não se encontra emprestado
+MESSAGE_HOLDING_SEARCH_INVALID_OR_EMPTY=Use o serial do exemplar como termo da busca
+TITLE_LAST_BACKUPS=Últimos backups
+MESSAGE_LATE_RETURN=Esta devolução passou do prazo
+MESSAGE_LENDING_LIMIT_EXCEEDED=Este usuário já está no limite máximo de empréstimos
+MESSAGE_LENDING_POSSIBLE=Empréstimo possível
+MESSAGE_MATERIAL_ALREADY_LENT=Este exemplar já está emprestado
+MESSAGE_MATERIAL_NOT_AVAILABLE=Este exemplar não está disponível
+MESSAGE_NO_HOLDINGS_IN_SELECTED_RANGE=Não existem exemplares no período selecionado
+MESSAGE_NO_RECORDS_TO_MOVE=Não há registro(s) selecionado(s) para movimentação
+MESSAGE_NO_USER_CARDS_IN_QUEUE=Não existem carteirinhas a serem impressas
+MESSAGE_SEARCH_MIN_LENGTH=O termo de pesquisa deve ter ao menos 3 letras
+MESSAGE_SELECT_USER_TYPE_TO_REMOVE=Você precisa selecionar um tipo de usuário antes de tentar excluí-lo
+MESSAGE_SELECT_USER_TYPE_TO_UPDATE=Você precisa selecionar um tipo de usuário antes de tentar alterá-lo
+MESSAGE_USER_ALREADY_HAS_CARD=Este usuário já possui um cartão
+MESSAGE_USER_BLOCKED=Este usuário está bloqueado
+MESSAGE_USER_CARD_ALREADY_IN_QUEUE=Este usuário já possui uma carteirinha a ser impressa
+MESSAGE_USER_SERIAL_NOT_FOUND=Nenhum usuário selecionado
+MESSAGE_USER_TYPE_IN_USE=Não é possível excluir um tipo que possui usuários
+
+#LENDING RECEIPT
+RECEIPT_AUTHOR=Autor
+RECEIPT_BIBLIO=Serial da obra
+RECEIPT_HOLDING=Tombo patrimonial
+RECEIPT_LEND_DATE=Data de Empréstimo
+RECEIPT_LENT_DESCRIPTION=** Empréstimos **
+RECEIPT_LIMIT_LEND_DATE=Data para devolução
+RECEIPT_READER_ENROL=Matrícula
+RECEIPT_READER_NAME=Leitor
+RECEIPT_RENEW_DESCRIPTION=** Renovações **
+RECEIPT_RETURN_DATE=Data de devolução
+RECEIPT_RETURN_DESCRIPTION=** Devoluções **
+RECEIPT_SERIAL=Serial
+RECEIPT_TITLE=Título
+RECEIPT_PAID=Paga
+
+#TITLES
+TITLE_CURRENT_FINES=Multas pendentes
+TITLE_CURRENT_LENDINGS=Empréstimos pendentes
+TITLE_PAST_FINES=Histórico de multas (pagas ou abonadas)
+TITLE_PAST_LENDINGS=Histórico de empréstimos
+TITLE_FILES=Arquivos
+TITLE_HOLDINGS=Exemplares
+TITLE_LENT_MATERIAL=Obras emprestadas a este leitor
+TITLE_RESERVED_MATERIAL=Itens reservados para este leitor
+TITLE_SELECTED_READER=Leitor selecionado
+
+#VALUES
+VALUE_AND=E
+VALUE_OR=OU
+VALUE_AND_NOT=E NÃO
+
+VALUE_AUTHOR=Autor
+VALUE_ANY=Qualquer
+VALUE_ANY_ABOVE=Todos atributos acima
+VALUE_CLASSIFICATION=Classificação
+VALUE_DATE=Data
+VALUE_HOLDING=Serial do exemplar
+VALUE_IN=Em
+VALUE_ISBN=ISBN
+VALUE_ISSN=ISSN (incluir hífens)
+VALUE_PUBLISH_YEAR=Ano de Publicação
+VALUE_SERIAL_NUMBER=Serial da obra
+VALUE_SUBJECT=Assunto
+VALUE_TITLE=Título
+
+VALUE_SELECT_TYPE_AUTHOR=Selecione o tipo de Autor
+VALUE_SELECT_PERSON=Pessoa
+VALUE_SELECT_COLLECTIVE_ENTITY=Entidade Coletiva
+VALUE_SELECT_EVENT=Evento
+
+VALUE_WORK=Trabalho
+VALUE_MAIN=Principal
+
+VALUE_IMPORT_BIBLIO_MAIN=Bibliográfico (Base Principal)
+VALUE_IMPORT_BIBLIO_WORK=Bibliográfico (Base de Trabalho)
+VALUE_IMPORT_AUTH=Autoridades
+VALUE_IMPORT_THESAURUS=Vocabulário
+
+VALUE_SELECT_MATERIAL_TYPE=Selecione o tipo de material
+VALUE_ALL=Todos
+VALUE_BOOK=Livro
+VALUE_BOOKP=Panfleto
+VALUE_BOOKT=Tese
+VALUE_SERIAL=Periódico
+VALUE_SERIAR=Artigo de periódico
+VALUE_BOOKM=Manuscrito
+VALUE_PHOTO=Iconográfico
+VALUE_MAPS=Cartografia
+VALUE_MOVIE=Audiovisual
+VALUE_SOUND=Música (Som)
+VALUE_MUSIC=Partitura
+VALUE_CFILES=Legivel por computador
+VALUE_OBJ3D=Objeto 3D
+
+
+LABEL_Z3950_SERVER=Servidor
+Z3950_SERVERS=Servidores Z39.50
+Z3950_NO_SERVER_SELECTED=Nenhum servidor foi selecionado
+Z3950_NO_SEARCH_VALUE=O termo da busca não foi preenchido
+Z3950_EMPTY_SERVER_LIST=A lista de servidores z39.50 está vazia
+Z3950_SERVER_ACTIVATION_FAILURE=Não foi possível ativar o servidor
+Z3950_SERVER_ACTIVATION_SUCCESS=O Servidor z39.50 foi ativado com sucesso
+Z3950_SERVER_ALREADY_ACTIVATED=O Servidor já se encontra ativado
+Z3950_SERVER_ALREADY_DEACTIVATED=O Servidor já se encontra desativado
+Z3950_SERVER_CONFIRM_DELETE=Confirma a exclusão do Servidor?
+Z3950_SERVER_DEACTIVATION_FAILURE=Não foi possível desativar o servidor
+Z3950_SERVER_DEACTIVATION_SUCCESS=O Servidor z39.50 foi desativado com sucesso
+Z3950_SERVER_MANAGEMENT=Gerenciamento de Servidores z39.50
+Z3950_SERVER_STATUS_OFF=Servidor Desativado
+Z3950_SERVER_STATUS_ON=Servidor Ativado
+
+
+#REPORTS
+LINK_MAINTENANCE_REPORTS=Relatório de Pedidos de Aquisição Efetuados Por Período
+LINK_MAINTENANCE_REPORTS10=Relatório de Empréstimos por Período
+LINK_MAINTENANCE_REPORTS12=Relatório de Reservas
+LINK_MAINTENANCE_REPORTS2=Sumário do Catálogo
+LINK_MAINTENANCE_REPORTS3=Estatística por Classificação Dewey
+LINK_MAINTENANCE_REPORTS4=Relatório de Inclusões de Obras por Período
+LINK_MAINTENANCE_REPORTS5=Relatório de Bibliografia do Autor
+LINK_MAINTENANCE_REPORTS6=Relatório por Usuário
+LINK_MAINTENANCE_REPORTS7=Relatório de Todos os Usuários
+LINK_MAINTENANCE_REPORTS8=Relatório de Empréstimos em Atraso
+LINK_MAINTENANCE_REPORTS9=Relatório de Total de Pesquisas por Período
+
+REPORTS_HEADER=Relatórios Biblivre
+REPORTS_DATE=Data
+REPORTS_TOTAL=Total
+REPORTS_FROM=De
+REPORTS_TO=a
+REPORTS_LENDINGS=Empréstimos
+REPORTS_AUTHOR=Autor
+REPORTS_TITLE=Título
+REPORTS_NAME=Nome
+REPORTS_ENROL=Matrícula
+REPORTS_INSERTION_DATE=Data Inclusão
+REPORTS_UPDATE_DATE=Data Cancelamento/Alteração
+REPORTS_DEWEY=Classificação
+REPORTS_NUMBER_OF_TITLES=Número de Títulos
+REPORTS_NUMBER_OF_HOLDINGS=Número de Exemplares
+REPORTS_ESTIMATED_DATE=Data Prevista
+REPORTS_EDITION=Edição
+REPORTS_EDITOR=Editora
+REPORTS_YEAR=Ano
+REPORTS_LOCAL=Local
+REPORTS_DATABASE=Base
+REPORTS_BIBLIO=Bibliográficos
+REPORTS_HOLDING=Tombos
+REPORTS_MAIN=Principal
+REPORTS_WORK=Trabalho
+REPORTS_RESERVATION_DATE=Data da Reserva
+REPORTS_PETITIONER=Requerente
+REPORTS_AMOUNT=Quantidade
+REPORTS_VALUE=Valor
+REPORTS_ISBN=ISBN
+REPORTS_HOLDINGS_TOTAL=Total Tombos
+REPORTS_SIGNUP_DATE=Inscrição
+REPORTS_SOCIAL_NUMBER=CPF
+REPORTS_ID=Identidade
+REPORTS_BIRTHDATE=Data de Nascimento
+REPORTS_OBS=OBS
+REPORTS_ADDRESS=Endereço
+REPORTS_NUMBER=Número
+REPORTS_ADDRESS_2=Complemento
+REPORTS_CITY=Cidade
+REPORTS_STATE=UF
+REPORTS_COUNTRY=País
+REPORTS_ZIP_CODE=CEP
+REPORTS_HOME_PHONE=Telefone Residencial
+REPORTS_MOBILE=Telefone Celular
+REPORTS_OFFICE_PHONE=Telefone Comercial
+REPORTS_EXTENSION=Ramal
+REPORTS_EMAIL=Email
+
+REPORTS_SEARCHES_BY_DATE_TITLE=Relatório de Total de Pesquisas por Período
+REPORTS_LENDINGS_BY_DATE_TITLE=Relatório de Empréstimos por Período
+REPORTS_LENDINGS_BY_DATE_TOTAL=Total de Livros emprestados no período
+REPORTS_LENDINGS_BY_DATE_TOTAL_OUT=Total de Livros ainda emprestados
+REPORTS_LENDINGS_BY_DATE_TOTAL_LATE=Total de Livros atrasados
+REPORTS_LENDINGS_BY_DATE_TOP_LENDINGS=Livros mais emprestados
+REPORTS_ALL_USERS=Relatório Geral de Usuários
+REPORTS_ALL_USERS_TYPE_TOTALS=Totais por Tipos de Usuários
+REPORTS_ALL_USERS_TYPE_LIST=Lista de Usuários Por Tipo
+REPORTS_DEWEY_TITLE=Relatório de Classificação Dewey
+REPORTS_DEWEY_UNCLASSIFIED=<Não classificado>
+REPORTS_DELAYED_LENDING_TITLE=Relatório De Empréstimos Atrasados
+REPORTS_DELAYED_LENDING_TOTAL=Total de Empréstimos em Atraso
+REPORTS_BIBLIOGRAPHY_TITLE=Relatório de Bibliografia por Autor
+REPORTS_INSERTION_BY_DATE_TITLE=Relatório de Total de Inclusões de Obras por Período
+REPORTS_INSERTION_BY_DATE_USER_TOTAL=Total de Inclusões Por Usuário
+REPORTS_INSERTION_BY_DATE_DATABASE_TOTALS=Total de Registros nas Bases no Período
+REPORTS_RESERVATION_TITLE=Relatório de Reservas
+REPORTS_REQUESTS_BY_DATE_TITLE=Relatório de Pedidos por Período
+REPORTS_SUMMARY_TITLE=Relatório de Sumário do Catálogo
+REPORTS_USER_TITLE=Relatório por Usuário
+REPORTS_USER_LENDINGS=Empréstimos Ativos
+REPORTS_USER_LATE_LENDINGS=Empréstimos em Atraso
+REPORTS_USER_RETURNED_LENDINGS=Histórico de Devoluções
+REPORTS_NO_DATA=Não existem dados para gerar este relatório
+REPORTS_RESERVATION_BIBLIO=Reservas por registro bibliográfico
+REPORTS_RESERVATION_HOLDING=Reservas por serial do exemplar
+
+#MARC BIBLIO
+b_013=Informação do controle de patentes
+b_013_a=Número
+b_013_b=País
+b_013_c=Tipo
+b_013_d=Data
+b_013_e=Estado da patente
+b_013_f=Parte de um documento
+
+b_020=ISBN
+b_020_a=Número do ISBN
+b_022=ISSN
+b_022_a=Número do ISSN
+
+b_024=Outros números ou códigos normalizados
+b_024_i1=Tipo do número ou código normalizado
+b_024_i1_0=International Standard Recording Code (ISRC)
+b_024_i1_2=International Standard Music Number (ISMN)
+
+b_029=ISNM
+b_029_a=Número do ISNM
+
+b_040=Fonte de catalogação
+b_040_a=Código da agência catalogadora
+b_040_b=Língua da catalogação
+
+b_041=Código da língua
+b_041_i1=Indicação de tradução
+b_041_i1_0=Item não é e não inclui tradução
+b_041_i1_1=Item é ou inclui tradução
+b_041_a=Código do idioma do texto
+b_041_b=Código do idioma do sumário ou resumo
+b_041_h=Código do idioma do documento original
+
+b_043=Código de área geográfica
+b_043_a=Código de área geográfica
+
+b_045=Código do período cronológico
+b_045_i1=Tipo do período cronológico
+b_045_i1__=Subcampos |b ou |c não estão presentes
+b_045_i1_0=Data - período únicos
+b_045_i1_1=Data - período múltiplos
+b_045_i1_2=Extensão de datas - períodos
+b_045_a=Código do período de tempo
+b_045_b=Período de tempo formatado de 9999 a.C em diante
+b_045_c=Período de tempo formatado anterior a 9999 a.C.
+
+b_080=Classificação Decimal Universal
+b_080_a=Número de Classificação
+b_080_2=Número de edição da CDU
+
+b_082=Classificação Decimal Dewey
+b_082_a=Número de Classificação
+b_082_2=Número de edição da CDD
+
+b_090=Número de chamada - Localização
+b_090_a=Classificação
+b_090_b=Código do autor
+b_090_c=Edição - volume
+
+b_095=Área do conhecimento do CNPq
+b_095_a=Área do conhecimento
+
+b_100=Autor - Nome pessoal
+b_100_i1=Forma de entrada
+b_100_i1_0=prenome simples ou composto
+b_100_i1_1=sobrenome simples ou composto
+b_100_i1_2=sobrenome composto (obsoleto)
+b_100_i1_3=nome de família
+b_100_a=Sobrenome e/ou prenome do autor
+b_100_b=Numeração que segue o prenome
+b_100_c=Título e outras palavras associadas ao nome
+b_100_d=Datas associadas ao nome
+b_100_q=Forma completa do nome
+
+b_110=Autor - Entidade coletiva
+b_110_i1=Forma de entrada
+b_110_i1_0=nome invertido
+b_110_i1_1=nome da jurisdição
+b_110_i1_2=nome na ordem direta
+b_110_a=Nome da entidade ou do lugar
+b_110_b=Unidades subordinadas
+b_110_c=Local de realização do evento
+b_110_d=Data da realização do evento
+b_110_l=Língua do texto
+b_110_n=Número da parte - seção da obra - ordem do evento
+
+b_111=Autor - Evento
+b_111_i1=Forma de entrada
+b_111_i1_0=nome invertido
+b_111_i1_1=nome da jurisdição
+b_111_i1_2=nome na ordem direta
+b_111_a=Nome do evento
+b_111_c=Local de realização do evento
+b_111_d=Data da realização do evento
+b_111_e=Nome de subunidades do evento
+b_111_g=Informações adicionais
+b_111_k=Subcabeçalhos
+b_111_n=Número de ordem do evento
+
+b_130= Obra anônima
+b_130_i1=Número de caracteres a serem desprezados na alfabetação
+b_130_i1_0=Nenhum caractere a desprezar
+b_130_i1_1=1 caractere a desprezar
+b_130_i1_2=2 caracteres a desprezar
+b_130_i1_3=3 caracteres a desprezar
+b_130_i1_4=4 caracteres a desprezar
+b_130_i1_5=5 caracteres a desprezar
+b_130_i1_6=6 caracteres a desprezar
+b_130_i1_7=7 caracteres a desprezar
+b_130_i1_8=8 caracteres a desprezar
+b_130_i1_9=9 caracteres a desprezar
+b_130_a=Título uniforme
+b_130_d=Data que aparece junto ao título uniforme na entrada
+b_130_f=Data de edição do item que está sendo processado
+b_130_g=Informações adicionais
+b_130_k=Subcabeçalhos
+b_130_l=Língua do texto
+b_130_n=Número da parte - seção da obra
+b_130_p=Nome da parte - seção da obra
+
+b_240=Título uniforme
+b_240_i1=Gera entrada secundária na ficha
+b_240_i1_0=Não gera entrada para o título
+b_240_i1_1=Gera entrada para o título
+b_240_i2=Número de caracteres a serem desprezados na alfabetação
+b_240_i2_0=Nenhum caractere a desprezar
+b_240_i2_1=1 caractere a desprezar
+b_240_i2_2=2 caracteres a desprezar
+b_240_i2_3=3 caracteres a desprezar
+b_240_i2_4=4 caracteres a desprezar
+b_240_i2_5=5 caracteres a desprezar
+b_240_i2_6=6 caracteres a desprezar
+b_240_i2_7=7 caracteres a desprezar
+b_240_i2_8=8 caracteres a desprezar
+b_240_i2_9=9 caracteres a desprezar
+b_240_a=Título uniforme
+b_240_b=Data que aparece junto ao título uniforme na entrada
+b_240_f=Data do trabalho
+b_240_g=Informações adicionais
+b_240_k=Subcabeçalhos
+b_240_l=Língua do texto
+b_240_n=Número da parte - seção da obra
+b_240_p=Nome da parte - seção da obra
+
+b_243=Título Convencionado Para Arquivamento
+b_243_i1=Gera entrada secundária na ficha
+b_243_i1_0=Não gera entrada para o título
+b_243_i1_1=Gera entrada para o título
+b_243_i2=Número de caracteres a serem desprezados na alfabetação
+b_243_i2_0=Nenhum caractere a desprezar
+b_243_i2_1=1 caractere a desprezar
+b_243_i2_2=2 caracteres a desprezar
+b_243_i2_3=3 caracteres a desprezar
+b_243_i2_4=4 caracteres a desprezar
+b_243_i2_5=5 caracteres a desprezar
+b_243_i2_6=6 caracteres a desprezar
+b_243_i2_7=7 caracteres a desprezar
+b_243_i2_8=8 caracteres a desprezar
+b_243_i2_9=9 caracteres a desprezar
+b_243_a=Título do trabalho
+b_243_f=Data do trabalho
+b_243_g=Informações adicionais
+b_243_k=Subcabeçalhos
+b_243_l=Língua do texto
+
+
+b_245=Título principal
+b_245_i1=Gera entrada secundária na ficha
+b_245_i1_0=Não gera entrada para o título
+b_245_i1_1=Gera entrada para o título
+b_245_i2=Número de caracteres a serem desprezados na alfabetação
+b_245_i2_0=Nenhum caractere a desprezar
+b_245_i2_1=1 caractere a desprezar
+b_245_i2_2=2 caracteres a desprezar
+b_245_i2_3=3 caracteres a desprezar
+b_245_i2_4=4 caracteres a desprezar
+b_245_i2_5=5 caracteres a desprezar
+b_245_i2_6=6 caracteres a desprezar
+b_245_i2_7=7 caracteres a desprezar
+b_245_i2_8=8 caracteres a desprezar
+b_245_i2_9=9 caracteres a desprezar
+b_245_a=Título principal
+b_245_b=Títulos paralelos/subtítulos
+b_245_c=Indicação de responsabilidade da obra
+b_245_h=Meio
+b_245_n=Número da parte - seção da obra
+b_245_p=Nome da parte - seção da obra
+
+b_255=Dado matemático cartográfico
+b_255_a=Escala
+
+b_256=Características do arquivo de computador
+b_256_a=Características do arquivo de computador
+
+b_258=Informação sobre material filatélico
+b_258_a=Jurisdição emissora
+b_258_b=Denominação
+
+b_250=Edição
+b_250_a=Indicação da edição
+b_250_b=Informações adicionais
+
+b_257=País da entidade produtora
+b_257_a=País da entidade produtora
+
+b_260=Publicação, edição. Etc.
+b_260_a=Local de publicação, distribuição, etc.
+b_260_b=Nome do editor, publicador, etc.
+b_260_c=Data de publicação, distribuição, etc.
+b_260_e=Nome do impressor
+b_260_f=Informações adicionais
+b_260_g=Data de impressão
+
+b_300=Descrição física
+b_300_a=Número de volumes e/ou paginação
+b_300_b=Material Ilustrativo
+b_300_c=Dimensões
+b_300_e=Material adicional
+
+b_300_f=Tipo de unidade de armazenamento
+b_300_g=Tamanho da unidade de armazenamento
+b_300_3=Especificação Material adicional
+
+b_306=Tempo de duração
+b_306_a=Tempo de duração
+
+b_340=Suporte físico
+b_340_a=Base e configuração do material
+b_340_b=Dimensões
+b_340_c=Materiais aplicados à superfície
+b_340_d=Técnica em que se registra a informação
+b_340_e=Suporte
+
+b_342=Dados de referência geospacial
+b_342_i1=Dimensões de referência geospacial
+b_342_i1_0=Sistema de coordenada horizontal
+b_342_i1_1=Sistema de coordenada Vertical
+b_342_i2=Dimensões de referência geospacial
+b_342_i2_0=Geográfico
+b_342_i2_1=Projeção de mapa
+b_342_i2_2=Sistema de coordenadas em grid
+b_342_i2_3=Local planar
+b_342_i2_4=Local
+b_342_i2_5=Modelo geodésico
+b_342_i2_6=Altitude
+b_342_i2_7=A especificar
+b_342_i2_8=Profundidade
+b_342_a=Nome
+b_342_b=Unidade das Coordenadas ou Unidade da Distância
+b_342_c=Escala da Latitude
+b_342_d=Escala da Longitude
+
+b_343=Dados de coordenada plana
+b_343_a=Método de codificação da coordenada plana
+b_343_b=Unidade de distância plana
+
+b_490=Indicação de série
+b_490_i1=Política de desdobramento de série
+b_490_i1_0=Título não desdobrado
+b_490_i1_1=Título desdobrado
+b_490_a=Título da série
+b_490_v=Número do volume ou designação sequencial da série
+
+b_500=Notas
+b_500_a=Notas gerais
+
+b_501=Notas iniciadas com a palavra "com"
+b_501_a=Notas iniciadas com a palavra "com"
+
+b_502=Notas de dissertação ou tese
+b_502_a=Notas de dissertação ou tese
+
+b_504=Notas de bibliografia
+b_504_a=Notas de bibliografia
+
+b_505=Notas de conteúdo
+b_505_a=Notas de conteúdo
+
+b_520=Notas de resumo
+b_520_a=Notas de resumo
+b_520_u=URI
+
+b_521=Notas de público alvo
+b_521_a=Notas de público alvo
+
+b_530=Notas de disponibilidade de forma física
+b_530_a=Notas de disponibilidade de forma física
+
+b_534=Notas de fac-símile
+b_534_a=Notas de fac-símile
+
+b_590=Notas locais
+b_590_a=Notas locais
+
+b_595=Notas para inclusão em bibliografias
+b_595_a=Código da bibliografia
+b_595_b=Notas de Bibliografia, índices e/ou apêndices
+
+
+b_600=Assunto - Nome pessoal
+b_600_i1=Forma de entrada
+b_600_i1_0=prenome simples ou composto
+b_600_i1_1=sobrenome simples ou composto
+b_600_i1_2=sobrenome composto (obsoleto)
+b_600_i1_3=nome de família
+b_600_a=Sobrenome e-ou prenome do autor
+b_600_b=Numeração que segue o prenome
+b_600_c=Título e outras palavras associadas ao nome
+b_600_d=Datas associadas ao nome
+b_600_k=Subcabeçalhos
+b_600_q=Forma completa do nome
+b_600_t=Título da obra junto a entrada
+b_600_x=Subdivisão geral
+b_600_y=Subdivisão cronológico
+b_600_z=Subdivisão geográfico
+
+b_610=Assunto - Entidade Coletiva
+b_610_i1=Forma de entrada
+b_610_i1_0=prenome simples ou composto
+b_610_i1_1=sobrenome simples ou composto
+b_610_i1_2=sobrenome composto (obsoleto)
+b_610_i1_3=nome de família
+b_610_a=Nome da entidade ou do lugar
+b_610_b=Unidades subordinadas
+b_610_c=Local de realização do evento
+b_610_d=Data da realização do evento
+b_610_g=Informações adicionais
+b_610_l=Língua do texto
+b_610_n=Número da parte - seção da obra - ordem do evento
+b_610_k=Subcabeçalho. (emendas, protocolos, seleção, etc)
+b_610_t=Título da obra junto à entrada
+b_610_x=Subdivisão geral
+b_610_y=Subdivisão cronológico
+b_610_z=Subdivisão geográfico
+
+b_611=Assunto - Evento
+b_611_i1=Forma de entrada
+b_611_i1_0=prenome simples ou composto
+b_611_i1_1=sobrenome simples ou composto
+b_611_i1_2=sobrenome composto (obsoleto)
+b_611_i1_3=nome de família
+b_611_a=Nome do evento
+b_611_c=Local de realização do evento
+b_611_d=Data da realização do evento
+b_611_e=Nome das subunidades do evento
+b_611_n=Número de ordem do evento
+b_611_t=Título da obra junto à entrada
+b_611_x=Subdivisão geral
+b_611_y=Subdivisão cronológico
+b_611_z=Subdivisão geográfico
+
+b_630=Assunto - Título uniforme
+b_630_i1=Número de caracteres a serem desprezados na alfabetação
+b_630_i1_0=Nenhum caractere a desprezar
+b_630_i1_1=1 caractere a desprezar
+b_630_i1_2=2 caracteres a desprezar
+b_630_i1_3=3 caracteres a desprezar
+b_630_i1_4=4 caracteres a desprezar
+b_630_i1_5=5 caracteres a desprezar
+b_630_i1_6=6 caracteres a desprezar
+b_630_i1_7=7 caracteres a desprezar
+b_630_i1_8=8 caracteres a desprezar
+b_630_i1_9=9 caracteres a desprezar
+b_630_a=Título uniforme atribuído ao documento
+b_630_d=Data que aparece junto ao título uniforme na entrada
+b_630_f=Data da edição do item que está sendo processado
+b_630_g=Informações adicionais
+b_630_k=Subcabeçalhos
+b_630_l=Língua do texto. Idioma do texto por extenso
+b_630_p=Nome da parte - seção da obra
+b_630_x=Subdivisão geral
+b_630_y=Subdivisão cronológico
+b_630_z=Subdivisão geográfico
+
+
+b_650=Assunto - Tópico
+b_650_a=Assunto tópico
+b_650_x=Subdivisão geral
+b_650_y=Subdivisão cronológico
+b_650_z=Subdivisão geográfico
+
+b_651=Assunto - Nome geográfico
+b_651_a=Nome geográfico
+b_651_x=Subdivisão geral
+b_651_y=Subdivisão cronológico
+b_651_z=Subdivisão geográfico
+
+b_700=Entrada secundária - Nome pessoal
+b_700_i1=Forma de entrada
+b_700_i1_0=prenome simples ou composto
+b_700_i1_1=sobrenome simples ou composto
+b_700_i1_2=sobrenome composto (obsoleto)
+b_700_i1_3=nome de família
+b_700_i2=Tipo de entrada secundária
+b_700_i2_0=nenhuma informação fornecida
+b_700_i2_1=entrada analítica
+b_700_a=Sobrenome e-ou prenome do autor
+b_700_b=Numeração que segue o prenome
+b_700_c=Título e outras palavras associadas ao nome
+b_700_d=Datas associadas ao nome
+b_700_e=Relação com o documento
+b_700_l=Língua do texto
+b_700_q=Forma completa do nome
+b_700_t=Título da obra junto à entrada
+
+b_710=Entrada secundária - Entidade Coletiva
+b_710_i1=Forma de entrada
+b_710_i1_0=prenome simples ou composto
+b_710_i1_1=sobrenome simples ou composto
+b_710_i1_2=sobrenome composto (obsoleto)
+b_710_i1_3=nome de família
+b_710_i2=Tipo de entrada secundária
+b_710_i2_0=nenhuma informação fornecida
+b_710_i2_1=entrada analítica
+b_710_a=Nome da entidade ou do lugar
+b_710_b=Unidades subordinadas
+b_710_c=Local de realização do evento
+b_710_d=Data de realização do evento
+b_710_g=Informações adicionais
+b_710_l=Língua do texto
+b_710_n=Número da parte - Seção da obra
+b_710_t=Título da obra junto a entrada
+
+b_711=Entrada secundária - Evento
+b_711_i1=Forma de entrada
+b_711_i1_0=nome invertido
+b_711_i1_1=nome da jurisdição
+b_711_i1_2=nome na ordem direta
+b_711_a=Nome do evento
+b_711_c=Local de realização do evento
+b_711_d=Data da realização do evento
+b_711_e=Nome de subunidades do evento
+b_711_g=Informações adicionais
+b_711_k=Subcabeçalhos
+b_711_n=Número de ordem do evento
+b_711_t=Título da obra junto a entrada
+
+
+b_730=Entrada secundária - Título uniforme
+b_730_i1=Número de caracteres a serem desprezados na alfabetação
+b_730_i1_0=Nenhum caractere a desprezar
+b_730_i1_1=1 caractere a desprezar
+b_730_i1_2=2 caracteres a desprezar
+b_730_i1_3=3 caracteres a desprezar
+b_730_i1_4=4 caracteres a desprezar
+b_730_i1_5=5 caracteres a desprezar
+b_730_i1_6=6 caracteres a desprezar
+b_730_i1_7=7 caracteres a desprezar
+b_730_i1_8=8 caracteres a desprezar
+b_730_i1_9=9 caracteres a desprezar
+b_730_i2=Tipo de entrada secundária
+b_730_i2_0=nenhuma informação fornecida
+b_730_i2_1=entrada analítica
+b_730_a=Título uniforme atribuído ao documento
+b_730_d=Data que aparece junto ao título uniforme de entrada
+b_730_f=Data da edição do item que está sendo processado
+b_730_g=Informações adicionais
+b_730_k=Subcabeçalhos
+b_730_l=Língua do texto. Idioma do texto por extenso
+b_730_p=Nome da parte - Seção da obra
+b_730_x=Subdivisão geral
+b_730_y=Subdivisão cronológico
+b_730_z=Subdivisão geográfico
+
+b_740=Entrada secundária - Título Adicional - Analítico
+b_740_i1=Número de caracteres a serem desprezados na alfabetação
+b_740_i1_0=Nenhum caractere a desprezar
+b_740_i1_1=1 caractere a desprezar
+b_740_i1_2=2 caracteres a desprezar
+b_740_i1_3=3 caracteres a desprezar
+b_740_i1_4=4 caracteres a desprezar
+b_740_i1_5=5 caracteres a desprezar
+b_740_i1_6=6 caracteres a desprezar
+b_740_i1_7=7 caracteres a desprezar
+b_740_i1_8=8 caracteres a desprezar
+b_740_i1_9=9 caracteres a desprezar
+b_740_i2=Tipo de entrada secundária
+b_740_i2_0=nenhuma informação fornecida
+b_740_i2_1=entrada analítica
+b_740_a=Título adicional - Título analítico
+b_740_n=Número da parte - Seção da obra
+b_740_p=Nome da parte - Seção da obra
+
+b_830=Entrada secundária - Série - Título Uniforme
+b_830_i2=Número de caracteres a serem desprezados na alfabetação
+b_830_i2_0=Nenhum caractere a desprezar
+b_830_i2_1=1 caractere a desprezar
+b_830_i2_2=2 caracteres a desprezar
+b_830_i2_3=3 caracteres a desprezar
+b_830_i2_4=4 caracteres a desprezar
+b_830_i2_5=5 caracteres a desprezar
+b_830_i2_6=6 caracteres a desprezar
+b_830_i2_7=7 caracteres a desprezar
+b_830_i2_8=8 caracteres a desprezar
+b_830_i2_9=9 caracteres a desprezar
+b_830_a=Título Uniforme
+b_830_v=Número do volume ou designação sequencial da série
+
+b_856=Localização de obras por meio eletrônico
+b_856_d=Caminho
+b_856_f=Nome do arquivo
+b_856_u=URI
+b_856_y=Link em texto
+
+b_949=Tombo patrimonial
+b_949_a=Tombo patrimonial
+
+
+#MARC HOLDINGS
+h_090=Número de chamada / Localização
+h_090_a=Classificação
+h_090_b=Código do autor
+h_090_c=Edição / volume
+h_090_d=Número do exemplar
+
+h_541=Nota sobre a fonte de aquisição
+h_541_i1=Privacidade
+h_541_i1__=nenhuma informação fornecida
+h_541_i1_0=confidencial
+h_541_i1_1=não confidencial
+h_541_a=Nome da fonte
+h_541_b=Endereço
+h_541_c=Forma de aquisição
+h_541_d=Data da aquisição
+h_541_e=Número atribuído a aquisição
+h_541_f=Proprietário
+h_541_h=Preço de compra
+h_541_n=Quantidade de itens adquiridos
+h_541_o=Tipo de unidade
+h_541_3=Especificações do material
+
+h_852=Informações sobre a localização
+h_852_i1=Esquema de classificação
+h_852_i1__=Nenhuma informação fornecida
+h_852_i1_0=Classificação da LC
+h_852_i1_1=CDD
+h_852_i1_2=National Library of Medicine Classification
+h_852_i1_3=Superintendent of Documents classification
+h_852_i1_4=Localização fixa
+h_852_i1_5=Título
+h_852_i1_6=Em parte separado
+h_852_i1_7=Classificação específica
+h_852_i1_8=Outro esquema
+h_852_i2=Tipo de ordenação
+h_852_i2__=Nenhuma informação fornecida
+h_852_i2_0=Não numerada
+h_852_i2_1=Numeração primária
+h_852_i2_2=Numeração alternada
+h_852_a=Localização
+h_852_b=Sub-localização ou coleção
+h_852_c=Localização na estante
+h_852_e=Endereço postal
+h_852_j=Número de controle na estante
+h_852_n=Código do País
+h_852_q=Condição física da parte
+h_852_u=URI
+h_852_x=Nota interna
+h_852_z=Nota pública
+
+h_856=Localização de obras por meio eletrônico
+h_856_d=Caminho
+h_856_f=Nome do arquivo
+h_856_u=URI
+h_856_y=Link em texto
+
+h_949=Tombo Patrimonial
+h_949_a=Tombo Patrimonial
+
+#MARC AUTHORITIES
+a_100=Autor - Nome pessoal
+a_100_i1=Forma de entrada
+a_100_i1_0=prenome simples ou composto
+a_100_i1_1=sobrenome simples ou composto
+a_100_i1_2=sobrenome composto (obsoleto)
+a_100_i1_3=nome de família
+a_100_a=Sobrenome e/ou prenome do autor
+a_100_b=Numeração que segue o prenome
+a_100_c=Título e outras palavras associadas ao nome
+a_100_d=Datas associadas ao nome
+a_100_q=Forma completa do nome
+
+a_110=Autor - Entidade coletiva
+a_110_i1=Forma de entrada
+a_110_i1_0=nome invertido
+a_110_i1_1=nome da jurisdição
+a_110_i1_2=nome na ordem direta
+a_110_a=Nome da entidade ou do lugar
+a_110_b=Unidades subordinadas
+a_110_c=Local de realização do evento
+a_110_d=Data da realização do evento
+a_110_l=Língua do texto
+a_110_n=Número da parte seção da obra ordem do evento
+
+a_111=Autor - Evento
+a_111_i1=Forma de entrada
+a_111_i1_0=nome invertido
+a_111_i1_1=nome da jurisdição
+a_111_i1_2=nome na ordem direta
+a_111_a=Nome do evento
+a_111_c=Local de realização do evento
+a_111_d=Data da realização do evento
+a_111_e=Nome de subunidades do evento
+a_111_g=Informações adicionais
+a_111_k=Subcabeçalhos
+a_111_n=Número de ordem do evento
+
+a_400=Outra forma do nome
+a_400_a=Sobrenome e/ou Prenome do autor
+
+a_410=Outra forma do nome
+a_410_a=Nome da entidade ou do lugar
+
+a_411=Outra forma do nome
+a_411_a=Nome do evento
+
+a_670=Origem das informações
+a_670_a=Nome retirado de
+a_670_b=Informações encontradas
+
+v_040 = Fonte da Catalogação (NR)
+v_040_a = Código da Agência Catalogadora
+v_040_b = Idioma da catalogação
+v_040_c = Agência que transcreveu o registro em formato legível por máquina
+v_040_d = Agência que alterou o registro
+v_040_e = Fontes convencionais de descrições de dados
+
+v_150 = TE
+v_150_a = Termo tópico adotado
+v_150_i = Qualificador
+v_150_x = Subdivisão geral adotada
+v_150_y = Subdivisão cronológica adotada
+v_150_z = Subdivisão geográfica adotada
+
+v_450 = UP (remissiva para TE não usado)
+v_450_a = Termo tópico não usado
+
+v_550 = TG (termo genérico)
+v_550_a = Termo tópico adotado
+v_550_x = Subdivisão geral adotada
+v_550_y = Subdivisão cronológica adotada
+v_550_z = Subdivisão geográfica adotada
+
+v_360 = Remissiva VT (ver também) e TA (termo relacionado ou associado)
+v_360_a = Termo tópico adotado
+v_360_x = Subdivisão geral adotada
+v_360_y = Subdivisão cronológica adotada
+v_360_z = Subdivisão geográfica adotada
+
+v_670 = Nota de origem do termo
+v_670_a = Nota de origem do termo
+
+v_680 = Nota de escopo (NE)
+v_680_a = Nota de escopo
+
+v_685 = Nota de histórico ou glossário (GLOSS)
+v_685_i = Texto explicativo
+
+v_750 = Termo tópico
+v_750_i1 = Nível do assunto
+v_750_i1_0 = Nenhum nível especificado
+v_750_i1_1 = Assunto primário
+v_750_i1_2 = Assunto secundário
+v_750_i2 = Tesauro
+v_750_i2_0 = Library of Congress Subject Headings
+v_750_i2_4 = Source not specified
+v_750_a = Termo tópico adotado no tesauro
+v_750_x = Subdivisão geral
+v_750_y = Subdivisão cronológica
+v_750_z = Subdivisão geográfica
+
+v_913 = Código local
+v_913_a = Código local
+
+#   MARC21 TAGS
+020=ISBN
+022=ISSN
+024=ISRC
+041=Idioma
+043=Código geográfico
+045=Código cronológico
+090=Localização
+100=Autor
+110=Autor
+111=Autor Evento
+130=Obra Anônima
+245=Título
+250=Edição
+255=Escala
+256=Características do arquivo
+257=Local de produção
+258=Informação sobre o material
+260=Imprenta
+300=Descrição física
+306=Tempo de duração
+310=Peridiocidade
+362=Data da primeira publicação
+400=Outra forma do nome
+410=Outra forma do nome
+411=Outra forma do nome
+490=Série
+600=Assunto pessoa
+610=Assunto entidade coletiva
+611=Assunto evento
+630=Assunto título uniforme
+648=Assunto termo cronológico
+650=Assunto tópico
+651=Assunto geográfico
+670=Origem das informações
+700=Autor secundário
+710=Autor secundário
+711=Autor secundário
+852=Notas públicas
+856=Endereço remoto
+876=Nota de acesso restrito
+949=Tombo patrimonial
+080=CDU
+082=CDD
+013=Informação do controle de patentes
+095=Área do conhecimento do CNPq
+
+#SYSTEM
+OK=OK
+
+
+
+#### SEGUNDA LEVA DE TRADUÇÕES
+
+
+MENU_PERMISSIONS=Logins e Permissões
+DIALOG_PERMISSIONS=Controle de Logins e Permissões
+
+TAB_PERMISSIONS_SEARCH=Buscar Usuários
+TAB_PERMISSIONS_LOGIN=Login e Permissões
+
+TITLE_SELECTED_USER=Usuário selecionado
+LABEL_NO_SELECTED_USER=Nenhum usuário selecionado
+BUTTON_SELECT_OTHER_USER=Selecionar outro usuário
+
+TITLE_ACCESS_DATA=Dados para acesso do sistema
+TITLE_PERMISSIONS=Permissões
+
+LABEL_HOLDING_COUNT=Exemplares
+
+AUTH_TYPE_ADMIN=Administração
+AUTH_TYPE_ACQUISITION=Aquisição
+AUTH_TYPE_REPORTS=Relatórios
+AUTH_TYPE_CATALOGING=Catalogação
+AUTH_TYPE_CIRCULATION=Circulação
+
+AUTH_ADMIN_BACKUP=Gerar backup da base de dados
+AUTH_ADMIN_REINDEX=Reindexar base de dados
+
+AUTH_ADMIN_USER_TYPE_LIST=Listar tipos de leitor
+AUTH_ADMIN_USER_TYPE_SAVE=Criar/alterar tipos de leitor
+AUTH_ADMIN_USER_TYPE_DELETE=Apagar tipos de leitor
+
+AUTH_ADMIN_PERMISSIONS=Gerenciar logins e permissões
+
+AUTH_ADMIN_CONFIG_SAVE=Alterar configurações
+
+AUTH_Z3950_MANAGE_LOCAL_SERVER=Parar/iniciar servidor Z39.50
+AUTH_Z3950_MANAGE_SERVERS=Gerenciar lista de servidores da busca distribuída
+
+AUTH_ACCESS_CARDS_LIST=Listar cartões de acesso
+AUTH_ACCESS_CARDS_SAVE=Criar cartões de acesso
+AUTH_ACCESS_CARDS_BLOCK=Bloquear/desbloquear cartões de acesso
+
+AUTH_ACQUISITION_SUPPLIER_LIST=Listar fornecedores
+AUTH_ACQUISITION_SUPPLIER_SAVE=Criar/alterar fornecedores
+AUTH_ACQUISITION_SUPPLIER_DELETE=Apagar fornecedores
+
+AUTH_ACQUISITION_REQUEST_LIST=Listar requisições
+AUTH_ACQUISITION_REQUEST_SAVE=Criar/alterar requisições
+AUTH_ACQUISITION_REQUEST_DELETE=Apagar requisições
+
+AUTH_ACQUISITION_QUOTATION_LIST=Listar cotações
+AUTH_ACQUISITION_QUOTATION_SAVE=Criar/alterar cotações
+AUTH_ACQUISITION_QUOTATION_DELETE=Apagar cotações
+
+AUTH_ACQUISITION_ORDER_LIST=Listar pedidos
+AUTH_ACQUISITION_ORDER_SAVE=Criar/alterar pedidos
+AUTH_ACQUISITION_ORDER_DELETE=Apagar pedidos
+
+AUTH_REPORT_CREATE=Gerar relatórios
+
+AUTH_CATALOGING_AUTH_SAVE=Criar/alterar registros de autoridades
+AUTH_CATALOGING_AUTH_DELETE=Apagar registros de autoridades
+
+AUTH_CATALOGING_BIBLIO_SAVE=Criar/alterar registros bibliográficos
+AUTH_CATALOGING_BIBLIO_MOVE=Mover registros bibliográficos entre base de trabalho e principal
+AUTH_CATALOGING_BIBLIO_DELETE=Apagar registros bibliográficos
+
+AUTH_CATALOGING_HOLDING_SAVE=Criar/alterar registros de exemplar
+AUTH_CATALOGING_HOLDING_DELETE=Apagar registros de exemplar
+AUTH_CATALOGING_HOLDING_PRINT=Gerar etiquetas de exemplares
+
+AUTH_CATALOGING_VOCABULARY_SAVE=Criar/alterar registros de vocabulário
+AUTH_CATALOGING_VOCABULARY_DELETE=Apagar registros de vocabulário
+
+AUTH_CIRCULATION_USER_LIST=Listar leitores e usuários
+AUTH_CIRCULATION_USER_SAVE=Criar/alterar registro de usuários/leitores
+AUTH_CIRCULATION_USER_DELETE=Apagar registro de usuários/leitores
+
+AUTH_CIRCULATION_USER_CARD=Gerar carteirinha de leitor
+AUTH_CIRCULATION_USER_BLOCK=Bloquear/desbloquear usuários/leitores
+
+AUTH_CIRCULATION_CARD=Gerenciar entrada e saída de pessoas
+
+AUTH_CIRCULATION_LENDING_LIST=Listar empréstimos
+AUTH_CIRCULATION_LENDING_LEND=Gerenciar empréstimos (emprestar, devolver)
+
+AUTH_CIRCULATION_RESERVATION_LIST=Listar reservas
+AUTH_CIRCULATION_RESERVATION_RESERVE=Gerenciar reservas (reservar, cancelar)
+
+
+BUTTON_REINDEX_BASE_AUTHORITIES=Base de Autoridades
+BUTTON_REINDEX_BASE_THESAURUS=Base de Vocabulário
+CONFIRM_REINDEX_BIBLIO=Dependendo do tamanho da base bibliográfica, esta operação pode demorar.\\n\\nDeseja confirmar a reindexação da base?
+CONFIRM_REINDEX_AUTHORITIES=Dependendo do tamanho da base, esta operação pode demorar.\\n\\nDeseja confirmar a reindexação da base de autoridades?
+CONFIRM_REINDEX_THESAURUS=Dependendo do tamanho da base, esta operação pode demorar.\\n\\nDeseja confirmar a reindexação da base de vocabulário?
+SUCCESS_REINDEX_AUTHORITIES_TABLE=Base de autoridades reindexada com sucesso
+SUCCESS_REINDEX_THESAURUS_TABLE=Base de vocabulário reindexada com sucesso
+SUCCESS_REINDEX_BIBLIO_TABLE=Base bibliográfica reindexada com sucesso
+SUCCESS_PERMISSIONS_CHANGED=Permissões alteradas com sucesso
+
+V150=TE (Termo Específico)
+V450=UP (Usado para)
+V550=TG (Termo genérico)
+V360=VT/TA/TR
+V680=Nota de escopo
+V685=Nota de histórico
+
+BUTTON_SELECT_TO_EXPORT=Selecionar para exportar
+LABEL_SELECT_USER=Selecione um usuário
+LABEL_SELECT_AUTHOR=Selecione um autor
+
+LABEL_090=Localização
+
+BUTTON_DONT_CREATE_HOLDING=Não criar exemplar
+
+MENU_BIBLIO_MOVE=Mover registros
+DIALOG_BIBLIO_MOVE=Movimentação de registros entre bases
+BUTTON_MOVE_ALL=Mover registros desta página
+BUTTON_MOVE_ALL_RECORDS=Mover todos os registros
+BUTTON_CLEAR_MOVE_LIST=Limpar lista
+BUTTON_MOVE_TO_WORK_DATABASE=Mover para a base de trabalho
+BUTTON_MOVE_TO_MAIN_DATABASE=Mover para a base principal
+BUTTON_SELECT_TO_MOVE=Selecionar para mover
+LABEL_BIBLIO_HOME_DATABASE=Base Bibliográfica de origem
+SUCCESS_BIBLIO_MOVE=Registros movidos com sucesso
+ERROR_BIBLIO_MOVE=Falha ao mover os registros
+
+LABEL_UNIFORM_TITLE=Título Uniforme
+730=Título uniforme
+243=Título uniforme coletivo
+500=Notas
+502=Nota de tese
+504=Notas de bibliografia
+505=Notas de conteúdo
+506=Nota de acesso restrito
+520=Nota de resumo
+521=Notas de público alvo
+534=Notas de fac-símile
+555=Notas
+590=Notas locais
+
+ERROR_INVALID_NUMERIC_PARAMETER=Um dos parâmetros não está em um formato válido
+ERROR_INVALID_REQUIRED_PARAMETER=Um dos parâmetros obrigatórios não foi enviado
+ERROR_SAVE_HOLDING=Erro ao salvar exemplar
+SUCCESS_CREATE_HOLDING=Exemplar criado com sucesso
+SUCCESS_CREATE_HOLDING_NEW_ASSET=O exemplar foi criado com sucesso e recebeu um tombo patrimonial automático
+SUCCESS_UPDATE_HOLDING=Exemplar alterado com sucesso
+SUCCESS_UPDATE_HOLDING_NEW_ASSET=O exemplar foi alterado com sucesso e recebeu um novo tombo patrimonial automático
+ERROR_ASSET_HOLDING_ALREADY_IN_USE=Erro ao salvar exemplar: Tombo patrimonial em uso por outro exemplar
+
+LABEL_ASSET_HOLDING_INFO=O tombo patrimonial é obrigatório e identifica unicamente um exemplar.<br/>Se deixado em branco, o sistema criará um automaticamente no formato &lt;prefixo&gt;.&lt;ano atual&gt;.&lt;contador&gt;<br/>Este prefixo pode ser alterado nas configurações do sistema.
+MESSAGE_HOLDING_SERIAL_NOT_FOUND=Nenhum exemplar foi encontrado com este tombo patrimonial
+VALUE_ASSET_HOLDING=Tombo patrimonial
+LABEL_ASSET_PREFIX=Prefíxo do tombo patrimonial
+
+VALUE_BAR_CODE=Código de barras
+LABEL_BAR_CODE=Código de barras
+
+MESSAGE_AVAILABLE_HOLDINGS_RESERVED=Todos os exemplares disponíveis deste registro estão reservados
+BUTTON_RESERVE=Reservar
+
+LABEL_RESERVATION_DATE=Data da reserva
+LABEL_RESERVATION_LIMIT_DATE=Data limite da reserva
+
+
+TAB_RESERVATION_SELECT_USER=Selecionar leitor
+TAB_RESERVATION_RESERVE=Reservar
+TAB_RESERVATION_RESERVE_LIST=Lista de reservas
+
+TAB_LENDING_SELECT_USER=Selecionar Leitor
+TAB_LENDING_LEND=Emprestar / Devolver
+TAB_LENDING_LEND_LIST=Lista de empréstimos
+
+BUTTON_BIND=Vincular
+
+TAB_ACCESS_SELECT_USER=Selecionar leitor
+TAB_ACCESS_BIND=Vincular
+
+SUCCESS_CREATE_RESERVATION=Reserva efetuada com sucesso
+ERROR_CREATE_RESERVATION=Falha ao efetuar a Reserva
+SUCCESS_DETELE_RESERVATION=Reserva excluída com sucesso
+ERROR_DETELE_RESERVATION=Falha ao excluir a Reserva
+
+LABEL_NO_MATERIAL_LENT_TO_USER=Nenhuma obra emprestada a este leitor
+LABEL_NO_MATERIAL_LENT=Nenhuma obra emprestada
+LABEL_NO_MATERIAL_RESERVED_TO_USER=Nenhuma obra reservada a este leitor
+LABEL_NO_MATERIAL_RESERVED=Nenhuma obra reservada
+
+LABEL_SELECT_DATABASE=Selecione a base de dados
+BUTTON_IMPORT=Importar
+SUCCESS_IMPORT_RECORD=Registros importados com sucesso
+ERROR_IMPORT_RECORD=Erro ao importar registros
+LABEL_BACKUP_HELP=Clique no link abaixo para fazer download do último backup realizado.<br/>Guarde-o em um local seguro, pois esta é a única forma de recuperar seus dados, caso necessário.
+
+BUTTON_LIST_CIRCULATIONS=Listar reservas e empréstimos
+LABEL_HOLDING_RESERVED=Existem reservas para exemplares deste registro.<br/>Ao devolver este exemplar, verifique se algum leitor deve ser notificado.
+
+LABEL_ORDER_RECEIVED=Pedido recebido
+
+REPORTS_UNIT_VALUE=Valor Unitário
+REPORTS_PAID_VALUE=Valor Total Pago
+
+LABEL_REMOVE_LABELS_AFTER_PRINTING=Remover etiquetas da lista após impressão
+BUTTON_LIST_ALL_PENDING_LABELS=Exibir lista de impressão
+BUTTON_GENERATE_LABELS=Gerar etiquetas
+MESSAGE_LABEL_ALL_LABELS_IN_RANGE_ARE_ALREADY_IN_LIST=Todos os exemplares deste período já estão na lista
+SUCCESS_ADD_LABEL=As etiquetas foram adicionadas à lista com sucesso
+
+MENU_USER_CARDS=Carteirinhas
+DIALOG_USER_CARDS=Impressão de Carteirinhas
+LABEL_USER_CARDS_SELECT_DATES=Selecione o período para impressão das carteirinhas
+LABEL_REMOVE_USER_CARDS_AFTER_PRINTING=Remover carteirinhas da lista após impressão
+BUTTON_GENERATE_USER_CARDS=Gerar carteirinhas
+BUTTON_LIST_ALL_PENDING_USER_CARDS=Exibir lista de impressão
+
+MESSAGE_NO_USERS_IN_SELECTED_RANGE=Não existem usuários cadastrados no período selecionado
+MESSAGE_USER_CARDS_IN_RANGE_ARE_ALREADY_IN_LIST=Todos os usuários deste período já estão na lista
+SUCCESS_ADD_USER_CARD=As carteirinhas foram adicionadas à lista com sucesso
+MESSAGE_EMPTY_USER_CARD_LIST=Não há carteirinhas na lista de impressão
+ERROR_MUST_SELECT_USER_CARD=Você deve selecionar ao menos uma carteirinha para impressão
+
+SUCCESS_DELETE_USER_CARD=Carteirinha(s) excluída(s) com sucesso
+ERROR_DELETE_USER_CARD=Não foi possível remover as carteirinhas(s)
+
+
+TAB_Z3950_LOCAL=Servidor local
+TAB_Z3950_REMOTE=Servidores remotos
+TAB_Z3950_EDIT_SERVER=Formulário
+
+LABEL_Z3950_SERVER_NAME=Nome do servidor
+LABEL_Z3950_SERVER_URL=URL
+LABEL_Z3950_SERVER_PORT=Porta
+LABEL_Z3950_SERVER_COLLECTION=Coleção
+LABEL_Z3950_SERVER_CHARSET=Codificação
+MESSAGE_Z3950_SERVER_INVALID_PORT=O valor para Porta deve ser um número inteiro positivo
+
+TAB_USERTYPES_LIST=Tipos de usuário
+TAB_USERTYPES_FORM=Formulário
+
+SYSTEM_WARNING_REINDEX=Você precisa reindexar as bases de dados
+
+REPORTS_ASSET_HOLDING=Tombo Patrimonial
+REPORTS_ASSET_HOLDING_TITLE=Relatório de Tombo Patrimonial
+LINK_MAINTENANCE_REPORTS13=Relatório de Tombo Patrimonial
+REPORTS_ASSET_HOLDING_FULL_TITLE=Relatório completo de Tombo Patrimonial
+LINK_MAINTENANCE_REPORTS14=Relatório completo de Tombo Patrimonial
+LINK_MAINTENANCE_REPORTS15=Relatório Topográfico
+REPORTS_TOPOGRAPHIC_TITLE=Relatório Topográfico
+REPORTS_HOLDING=Exemplar
+REPORTS_LOCATION=Localização
+
+MESSAGE_FAILED_CANNOT_DELETE_YOU_ARE_USING_THIS_ACCOUNT=Não é possível excluir o próprio usuário
+MESSAGE_FAILED_CANNOT_DELETE_USER_WITH_LENDINGS=Não é possível excluir um usuário que possui empréstimos
+
+LINK_MAINTENANCE_REPORTS16=Relatório de Cadastro de Exemplares
+REPORTS_ASSET_HOLDING_BY_DATE_TITLE=Relatório de Cadastro de Exemplares
+
+LABEL_ALL_BASE=Todas
+LABEL_XML=MARCXML
+LABEL_ISO=ISO 2709
+LABEL_FORMAT=Formato
+BUTTON_EXPORT_BIBLIO=Registros Bibliográficos
+BUTTON_EXPORT_HOLDINGS=Exemplares
+LABEL_EXPORT_BASE=Exportar todos os registros
+
+LABEL_EG=ex.
+LABEL_DEWEY_SIGNIFICANT_DIGITS=Dígitos significativos
+LABEL_DATAFIELD=Campo MARC
+
+LABEL_WELCOME_DISCLAIMER_PT_BR=Texto da Tela de Login<br>(Português)
+LABEL_WELCOME_DISCLAIMER_EN_US=Texto da Tela de Login<br>(Inglês)
+LABEL_WELCOME_DISCLAIMER_ES=Texto da Tela de Login<br>(Espanhol)

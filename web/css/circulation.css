@@ -1,0 +1,22 @@
+.unblock_user {
+    display: none;
+}
+
+.user_status_BLOCKED .block_user {
+    display: none;
+}
+
+.user_status_BLOCKED .unblock_user {
+    display: block;
+}
+
+.user_status_PENDINGS {
+    border: 1px solid #666508;
+    background: #FFFFD4;
+}
+
+.user_status_BLOCKED {
+    border: 1px solid #666508;
+    background: #FFD4D9;
+}
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <filter>
+        <filter-name>Set Character Encoding</filter-name>
+        <filter-class>mercury.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <context-param>
+        <param-name>PARAMETER_ENCODING</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>mercury.ContextListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>mercury.Controller</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>JsonController</servlet-name>
+        <servlet-class>mercury.JsonController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LendingHandler</servlet-name>
+        <servlet-class>biblivre3.circulation.lending.LendingHandler</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UploadController</servlet-name>
+        <servlet-class>mercury.UploadController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DigitalMediaController</servlet-name>
+        <servlet-class>mercury.DigitalMediaController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/Controller</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>JsonController</servlet-name>
+        <url-pattern>/JsonController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LendingHandler</servlet-name>
+        <url-pattern>/LendingHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DigitalMediaController</servlet-name>
+        <url-pattern>/DigitalMediaController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UploadController</servlet-name>
+        <url-pattern>/UploadController</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>/jsp/login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

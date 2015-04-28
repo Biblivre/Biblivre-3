@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.4.2" class="java.beans.XMLDecoder">
+
+    <object class="com.k_int.sql.data_dictionary.InMemoryConfig">
+  
+        <void property="dictionaryName">
+            <string>records</string>
+        </void> <!-- nome do dicionario de dados -->
+    
+    <!-- Registros -->
+        <void method="addEntity">
+            <object class="com.k_int.sql.data_dictionary.EntityTemplate">
+                <string>Records</string>  <!-- nome do objeto que indicara a tabela -->
+                <string>cataloging_biblio</string>  <!-- nome da tabela no BD -->
+	
+                <void method="addPrimaryKeyCol">
+                    <string>record</string> <!-- nome do atributo coluna que e chave primaria -->
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record_serial</string>  <!-- nome do atributo -->
+                        <string>record_serial</string> <!-- nome da coluna na tabela -->
+                        <int>4</int>  <!-- tipo da coluna (java.sql.types) -->
+                        <int>10</int>  <!-- tamanho maximo -->
+                        <int>0</int>  <!-- aceita ou nao valores nulos -->
+                    </object>
+                </void>
+	
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record</string>
+                        <string>record</string>
+                        <int>12</int> <!-- java.sql.types.VARCHAR -->
+                        <int>10000</int>
+                        <int>0</int>
+                    </object>
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.CollectionAttribute"> <!-- Relacionamento -->
+                        <string>author</string>  <!-- nome do atributo nesta Tabela -->
+                        <string>Author</string>  <!-- nome da entidade (Tabela) de relacionamento -->
+                        <void method="addKeyPair">
+                            <string>record_serial</string> <!-- nome da coluna nesta Tabela -->
+                            <string>record_serial</string> <!-- nome da coluna na Tabela de relacionamento -->
+                            <int>0</int> <!-- sequencia -->
+                        </void>
+                    </object>
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.CollectionAttribute"> <!-- Relacionamento -->
+                        <string>title</string>  <!-- nome do atributo nesta Tabela -->
+                        <string>Title</string>  <!-- nome da entidade (Tabela) de relacionamento -->
+                        <void method="addKeyPair">
+                            <string>record_serial</string> <!-- nome da coluna nesta Tabela -->
+                            <string>record_serial</string> <!-- nome da coluna na Tabela de relacionamento -->
+                            <int>1</int> <!-- sequencia -->
+                        </void>
+                    </object>
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.CollectionAttribute"> <!-- Relacionamento -->
+                        <string>isbn</string>  <!-- nome do atributo nesta Tabela -->
+                        <string>Isbn</string>  <!-- nome da entidade (Tabela) de relacionamento -->
+                        <void method="addKeyPair">
+                            <string>record_serial</string> <!-- nome da coluna nesta Tabela -->
+                            <string>record_serial</string> <!-- nome da coluna na Tabela de relacionamento -->
+                            <int>2</int> <!-- sequencia -->
+                        </void>
+                    </object>
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.CollectionAttribute"> <!-- Relacionamento -->
+                        <string>subject</string>  <!-- nome do atributo nesta Tabela -->
+                        <string>Subject</string>  <!-- nome da entidade (Tabela) de relacionamento -->
+                        <void method="addKeyPair">
+                            <string>record_serial</string> <!-- nome da coluna nesta Tabela -->
+                            <string>record_serial</string> <!-- nome da coluna na Tabela de relacionamento -->
+                            <int>3</int> <!-- sequencia -->
+                        </void>
+                    </object>
+                </void>
+	
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.CollectionAttribute"> <!-- Relacionamento -->
+                        <string>any</string>  <!-- nome do atributo nesta Tabela -->
+                        <string>Any</string>  <!-- nome da entidade (Tabela) de relacionamento -->
+                        <void method="addKeyPair">
+                            <string>record_serial</string> <!-- nome da coluna nesta Tabela -->
+                            <string>record_serial</string> <!-- nome da coluna na Tabela de relacionamento -->
+                            <int>4</int> <!-- sequencia -->
+                        </void>
+                    </object>
+                </void>
+	
+            </object>
+        </void>
+
+
+    <!-- Author -->
+        <void method="addEntity">
+            <object class="com.k_int.sql.data_dictionary.EntityTemplate">
+                <string>Author</string>  <!-- nome do objeto que indicara a tabela -->
+                <string>idx_author</string>  <!-- nome da tabela no BD -->
+	
+                <void method="addPrimaryKeyCol">
+                    <string>record_serial</string> <!-- nome da coluna que e chave primaria -->
+                </void>
+
+               <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record_serial</string>
+                        <string>record_serial</string>
+                        <int>4</int>
+                        <int>10</int>
+                        <int>0</int>
+                    </object>
+                </void>
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>index_word</string>
+                        <string>index_word</string>
+                        <int>1</int>
+                        <int>50</int>
+                        <int>0</int>
+                    </object>
+                </void>
+            </object>
+        </void>
+
+    
+    <!-- Title -->
+        <void method="addEntity">
+            <object class="com.k_int.sql.data_dictionary.EntityTemplate">
+                <string>Title</string>  <!-- nome do objeto que indicara a tabela -->
+                <string>idx_title</string>  <!-- nome da tabela no BD -->
+	
+                <void method="addPrimaryKeyCol">
+                    <string>record_serial</string> <!-- nome da coluna que e chave primaria -->
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record_serial</string>
+                        <string>record_serial</string>
+                        <int>4</int>
+                        <int>10</int>
+                        <int>0</int>
+                    </object>
+                </void>
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>index_word</string>
+                        <string>index_word</string>
+                        <int>1</int>
+                        <int>50</int>
+                        <int>0</int>
+                    </object>
+                </void>
+            </object>
+        </void>
+
+    <!-- ISBN -->
+        <void method="addEntity">
+            <object class="com.k_int.sql.data_dictionary.EntityTemplate">
+                <string>Isbn</string>  <!-- nome do objeto que indicara a tabela -->
+                <string>idx_isbn</string>  <!-- nome da tabela no BD -->
+	
+                <void method="addPrimaryKeyCol">
+                    <string>record_serial</string> <!-- nome da coluna que e chave primaria -->
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record_serial</string>
+                        <string>record_serial</string>
+                        <int>4</int>
+                        <int>10</int>
+                        <int>0</int>
+                    </object>
+                </void>
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>index_word</string>
+                        <string>index_word</string>
+                        <int>1</int>
+                        <int>50</int>
+                        <int>0</int>
+                    </object>
+                </void>
+            </object>
+        </void>
+
+    <!-- Subject -->
+        <void method="addEntity">
+            <object class="com.k_int.sql.data_dictionary.EntityTemplate">
+                <string>Subject</string>  <!-- nome do objeto que indicara a tabela -->
+                <string>idx_subject</string>  <!-- nome da tabela no BD -->
+	
+                <void method="addPrimaryKeyCol">
+                    <string>record_serial</string> <!-- nome da coluna que e chave primaria -->
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record_serial</string>
+                        <string>record_serial</string>
+                        <int>4</int>
+                        <int>10</int>
+                        <int>0</int>
+                    </object>
+                </void>
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>index_word</string>
+                        <string>index_word</string>
+                        <int>1</int>
+                        <int>50</int>
+                        <int>0</int>
+                    </object>
+                </void>
+            </object>
+        </void>
+
+    <!-- Any -->
+        <void method="addEntity">
+            <object class="com.k_int.sql.data_dictionary.EntityTemplate">
+                <string>Any</string>  <!-- nome do objeto que indicara a tabela -->
+                <string>idx_any</string>  <!-- nome da tabela no BD -->
+	
+                <void method="addPrimaryKeyCol">
+                    <string>record_serial</string> <!-- nome da coluna que e chave primaria -->
+                </void>
+
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>record_serial</string>
+                        <string>record_serial</string>
+                        <int>4</int>
+                        <int>10</int>
+                        <int>0</int>
+                    </object>
+                </void>
+                <void method="addAttribute">
+                    <object class="com.k_int.sql.data_dictionary.DatabaseColAttribute">
+                        <string>index_word</string>
+                        <string>index_word</string>
+                        <int>1</int>
+                        <int>50</int>
+                        <int>0</int>
+                    </object>
+                </void>
+            </object>
+        </void>
+    </object>
+</java>

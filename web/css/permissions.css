@@ -1,0 +1,18 @@
+.login_form {
+    font-size: 12px;
+    line-height: 20px;
+    width: 70%;
+}
+
+.login_form td {
+    padding: 4px 0 4px 4px;
+    white-space: nowrap;
+}
+
+.login_form input {
+    width: 100%;
+}
+
+#user_permissions_box {
+    line-height: 18px;
+}
